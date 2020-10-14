@@ -1,0 +1,10 @@
+---
+layout: 'layouts/simple-page.njk'
+title: Services
+pageName: services
+---
+
+  <h1>{{ title }}</h1>
+
+   {% set items = services[locale].services %}
+   {% include "partials/light-card-list.njk" %}
