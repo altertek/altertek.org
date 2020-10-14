@@ -11,6 +11,15 @@ This is the source code of my personal website hosted at [saxjst.com](https://sa
 </a>
 </div>
 
+## Try locally
+
+```
+git clone git@github.com:altertek/altertek.org.git
+cd altertek.org
+npm install
+npm run serve
+```
+
 ## Licenses
 
 - Code - MIT © [Altertek](https://altertek.org)
