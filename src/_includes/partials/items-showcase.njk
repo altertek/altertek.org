@@ -1,0 +1,53 @@
+<div class="row justify-content-md-center">
+
+  <div class="col-md-10">
+    <h1 class="text-center " style="color: #3F51B5">{{ item.title }}</h1>
+        <br />
+  </div>
+  <div class="col-md-10">
+    <h3 style="color: #2b2b2b;">{{ item.subtitle }}</h3>
+  </div>
+</div>
+
+<br /><br />
+<!-- Three columns of text below the carousel -->
+<div class="row">
+
+    {% for column in item.columns %}
+    <div class="col-lg-4">
+      <span style="color: #191a23;">
+        <i class="fa fa-{{ column.icon }} fa-6x"></i>
+      </span>
+
+      <h2>{{ column.title }}</h2>
+
+      <p>{{ column.subtitle }}</p>
+
+      <a class="btn btn-outline-altertek" href="{{ column.link }}" role="button">{{ column.button }}</a>
+    </div>
+    {% endfor %}
+
+<!-- /.col-lg-4 -->
+  {# <div class="col-lg-4">
+    <span style="color: #191a23;">
+    <i class="fa fa-server fa-6x"></i>
+  </span>
+    <br /><br />
+    <h2>Nos services</h2>
+    <br />
+    <p>Des outils libre de droits, respectueux de la vie privée des utilisateurs et hebergés sur des serveurs à consomation responsable.</p>
+
+    <a class="btn btn-outline-altertek" href="https://www.helloasso.com/associations/altertek/formulaires/1" role="button">Découvrir nos services</a>
+  </div>
+  <div class="col-lg-4">
+    <span style="color: #191a23;">
+    <i class="fa fa-hands-helping fa-6x"></i>
+  </span>
+    <br /><br />
+    <h2>Nous Aider</h2>
+    <br />
+    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egest tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+
+              <a class="btn btn-outline-altertek" href="https://www.helloasso.com/associations/altertek/formulaires/1" role="button">Agir avec nous</a>
+  </div> #}
+</div><!-- /.row -->

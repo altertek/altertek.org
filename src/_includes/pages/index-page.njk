@@ -1,0 +1,29 @@
+---
+layout: 'layouts/base.njk'
+title: Altertek
+---
+
+{% set items = main[locale].carousel %}
+{% include "partials/carousel.njk" %}
+
+
+  <div class="container marketing">
+
+{% set item = main[locale].showcase %}
+{% include "partials/items-showcase.njk" %}
+
+    <!-- START THE FEATURETTES -->
+
+    <h1>{{ main[locale].news }}</h1>
+
+   {% include "partials/light-card-list.njk" %}
+
+    <h1>{{ main[locale].publications }}</h1>
+
+    {% include "partials/detailed-card-list.njk" %}
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
