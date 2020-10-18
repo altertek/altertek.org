@@ -13,18 +13,18 @@ module.exports = {
         title: "Who are we ?",
         subtitle: "Altertek is an association whose aim is to offer alternatives in terms of the use and design of Information and Communication Technologies to preserve the environment and our resources",
         button: "Learn more",
-        link: ""
+        link: "about"
       },
       {
         img: "../assets/images/photo-1440964829947.webp",
         title: "MEET. Our alternative to zoom",
         subtitle: "Discover our videoconference instance (based on jitsi), to discuss with your friends, your students or your community",
         button: "Try MEET",
-        link: ""
+        link: "https://meet.altertek.org"
       },
       {
         img: "../assets/images/photo-1540655037529.webp",
-        title: "Simple Videos",
+        title: "Simple Video",
         subtitle: "Reduce my resource consumption when watching YouTube",
         button: "Download the plugin",
         link: ""
@@ -63,18 +63,18 @@ module.exports = {
     publications: "Nos publications",
     carousel: [
       {
-        img: "../assets/photo-1575761344173.webp",
+        img: "../assets/images/photo-1575761344173.webp",
         title: "Qui sommes-nous ?",
         subtitle: "Altertek est une association ayant pour but de proposer des alternatives en terme d’usage et de conception des Technologies de l’Information et de la Communication pour préserver l’environnement et nos ressources.",
         button: "En savoir plus",
-        link: ""
+        link: "about"
       },
       {
         img: "../assets/images/photo-1440964829947.webp",
         title: "MEET. Notre alternative à zoom",
         subtitle: "Découvrez notre instance de visio-conférence (basée sur jitsi), pour échanger avec vos amis, vos élèves ou votre communauté.",
         button: "Essayer MEET",
-        link: ""
+        link: "https://meet.altertek.org"
       },
       {
         img:  "../assets/photo-1540655037529.webp",
