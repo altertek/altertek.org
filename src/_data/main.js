@@ -21,14 +21,14 @@ module.exports = {
         subtitle: "Discover our videoconference instance (based on jitsi), to discuss with your friends, your students or your community",
         button: "Try MEET",
         link: "https://meet.altertek.org"
-      },
-      {
-        img: "../assets/images/photo-1540655037529.webp",
-        title: "Simple Video",
-        subtitle: "Reduce my resource consumption when watching YouTube",
-        button: "Download the plugin",
-        link: ""
       }
+      // {
+      //   img: "../assets/images/photo-1540655037529.webp",
+      //   title: "Simple Video",
+      //   subtitle: "Reduce my resource consumption when watching YouTube",
+      //   button: "Download the plugin",
+      //   link: ""
+      // }
     ],
     showcase: {
       title: "Ethics in technology",
@@ -75,13 +75,13 @@ module.exports = {
         subtitle: "Découvrez notre instance de visio-conférence (basée sur jitsi), pour échanger avec vos amis, vos élèves ou votre communauté.",
         button: "Essayer MEET",
         link: "https://meet.altertek.org"
-      },
-      {
-        img:  "../assets/photo-1540655037529.webp",
-        subtitle:  "Reduire ma consommation de ressources quand je regarde youtube",
-        button: "Télécharger le plugin",
-        link: ""
       }
+      // {
+      //   img:  "../assets/photo-1540655037529.webp",
+      //   subtitle:  "Reduire ma consommation de ressources quand je regarde youtube",
+      //   button: "Télécharger le plugin",
+      //   link: ""
+      // }
     ],
     showcase: {
       title: "De l’éthique dans la technologie",
