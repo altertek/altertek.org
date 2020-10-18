@@ -1,14 +1,14 @@
 module.exports = {
   en: {
     services: [{
-      img: "https://www.icescrum.com/wp-content/uploads/2020/03/jitsi1.png",
+      img: "../../assets/images/services/jitsi.png",
       title: "Meet",
       subtitle: "video conference",
       button: "Create a room",
       link: "https://meet.altertek.org/"
     },
     {
-      img: "https://framalibre.org/sites/default/files/page_groupe_mobilizon.png",
+      img: "../../assets/images/services/mobilizon.png",
       title: "Event",
       subtitle: "Event management",
       button: "Create a event",
@@ -17,14 +17,14 @@ module.exports = {
   },
   fr: {
     services: [{
-      img: "https://www.icescrum.com/wp-content/uploads/2020/03/jitsi1.png",
+      img: "../../assets/images/services/jitsi.png",
       title: "Meet",
       subtitle: "Conférence vidéo",
       button: "Créer un salon",
       link: "https://meet.altertek.org/"
     },
     {
-      img: "https://framalibre.org/sites/default/files/page_groupe_mobilizon.png",
+      img: "../../assets/images/services/mobilizon.png",
       title: "Event",
       subtitle: "Gestion d'événements",
       button: "Créer un événement",
