@@ -77,7 +77,7 @@ module.exports = {
         link: "https://meet.altertek.org"
       }
       // {
-      //   img:  "../assets/photo-1540655037529.webp",
+      //   img:  "../assets/images/photo-1540655037529.webp",
       //   subtitle:  "Reduire ma consommation de ressources quand je regarde youtube",
       //   button: "Télécharger le plugin",
       //   link: ""
