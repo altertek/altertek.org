@@ -24,7 +24,7 @@ module.exports = {
   fr: {
     ourServices: "Services",
     about: "A propos",
-    contribute: "Contribute",
+    contribute: "Contribuer",
     contact: "Contact",
     legals: "Mentions légales",
     makeDonation: "Faire un don",
