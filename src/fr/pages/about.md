@@ -60,8 +60,8 @@ Solution: transparence, logiciel libre
 #### Problème 2: La consommation extrême des ressources planétaires dues à l'utilisation du numérique
 Solution: éco-conception, sobriété numérique, la mise en service et l'utilisation des outils
 
-#### Problème 3: Collecte des donnes personnelles
-Solution: Développement d'un modèle numérique privacy first
+#### Problème 3: Collecte des données personnelles
+Solution: Développement d'un modèle numérique privacy-first
 
 #### Problème 4: Centralisation des services
 Solution: Développement d'un écosystème décentralisé et varié
