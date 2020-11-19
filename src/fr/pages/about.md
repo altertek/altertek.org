@@ -20,7 +20,7 @@ Nous souhaitons à notre échelle mettre en place des solutions replaçant l'hum
 
  L'utilisation du numérique s'adresse à tous. Par conséquent notre association s'adresse à tous
 
-### OUR GOALS
+### NOS OBJECTIFS
 
 #### Réduire
 
