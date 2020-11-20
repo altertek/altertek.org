@@ -6,7 +6,7 @@ module.exports = {
   mapUrl: "https://goo.gl/maps/3YTkhCgfEgj1PRAd7",
   en: {
     ourServices: "Our services",
-    about: "About Us",
+    about: "About us",
     contribute: "Contribute",
     contact: "Contact",
     legals: "Legals",

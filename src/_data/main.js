@@ -10,7 +10,7 @@ module.exports = {
     carousel: [
       {
         img: "../assets/images/photo-1575761344173.webp",
-        title: "Who are we ?",
+        title: "Who are we?",
         subtitle: "Altertek is an association whose aim is to offer alternatives in terms of the use and design of Information and Communication Technologies to preserve the environment and our resources",
         button: "Learn more",
         link: "about"

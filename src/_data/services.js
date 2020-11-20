@@ -11,7 +11,7 @@ module.exports = {
       img: "../../assets/images/services/mobilizon.png",
       title: "Event",
       subtitle: "Event management",
-      button: "Create a event",
+      button: "Create an event",
       link: "https://event.altertek.org/"
     }]
   },
