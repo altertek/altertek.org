@@ -9,16 +9,16 @@
 <div class="collapse navbar-collapse" id="navbarCollapse">
   <ul class="navbar-nav mr-auto">
     <li class="nav-item custom-nav-item">
-      <a class="nav-link " href="/{{ locale }}/services">{{ site[locale].ourServices }}</a>
+      <a class="nav-link " href="/{{ locale }}/services/">{{ site[locale].ourServices }}</a>
     </li>
     <li class="nav-item custom-nav-item">
-      <a class="nav-link " href="/{{ locale }}/about">{{ site[locale].about }}</a>
+      <a class="nav-link " href="/{{ locale }}/about/">{{ site[locale].about }}</a>
     </li>
   </ul>
 
   <ul class="navbar-nav">
     <li class="nav-item custom-nav-item">
-      <a class="nav-link" href="/{{ locale }}/contribute">{{ site[locale].contribute }}</a>
+      <a class="nav-link" href="/{{ locale }}/contribute/">{{ site[locale].contribute }}</a>
     </li>
 
 
@@ -30,7 +30,7 @@
 </a>
 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
   {% for language in site[locale].languages %}
-     <a class="dropdown-item" href="/{{ language.locale }}/{{ pageName }}"> {{ language.language }}</a>
+     <a class="dropdown-item" href="/{{ language.locale }}/{{ pageName }}{{ "/" if pageName }}"> {{ language.language }}</a>
   {% endfor %}
 </div>
 </li>

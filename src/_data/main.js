@@ -13,7 +13,7 @@ module.exports = {
         title: "Who are we?",
         subtitle: "Altertek is an association whose aim is to offer alternatives in terms of the use and design of Information and Communication Technologies to preserve the environment and our resources",
         button: "Learn more",
-        link: "about"
+        link: "about/"
       },
       {
         img: "../assets/images/photo-1440964829947.webp",
@@ -39,21 +39,21 @@ module.exports = {
           title: "Our commitment",
           subtitle: "Placing humans and the environment at the center of technological progress.",
           button: "Know our motivations",
-          link: "about"
+          link: "about/"
         },
         {
           icon: "server",
           title: "Our services",
           subtitle: "Tools free of rights, respectful of user privacy and hosted on responsible consumption servers.",
           button: "Discover our services",
-          link: "services"
+          link: "services/"
         },
         {
           icon: "hands-helping",
           title: "Help us",
           subtitle: "Everyone can help at their own level.",
           button: "Act with us",
-          link: "contribute"
+          link: "contribute/"
         }
       ]
     }
@@ -67,7 +67,7 @@ module.exports = {
         title: "Qui sommes-nous ?",
         subtitle: "Altertek est une association ayant pour but de proposer des alternatives en terme d’usage et de conception des Technologies de l’Information et de la Communication pour préserver l’environnement et nos ressources.",
         button: "En savoir plus",
-        link: "about"
+        link: "about/"
       },
       {
         img: "../assets/images/photo-1440964829947.webp",
@@ -92,21 +92,21 @@ module.exports = {
           title: "Notre volonté",
           subtitle: "Placer l'humain et l'environnement au centre du progres technologique.",
           button: "Connaitre nos motivations",
-          link: "about"
+          link: "about/"
         },
         {
           icon: "server",
           title: "Nos services",
           subtitle: "Des outils libres de droits, respectueux de la vie privée des utilisateurs et hébergés sur des serveurs à consommation responsable.",
           button: "Découvrir nos services",
-          link: "services"
+          link: "services/"
         },
         {
           icon: "hands-helping",
           title: "Nous Aider",
           subtitle: "Chacun peut apporter de l'aide à son niveau.",
           button: "Agir avec nous",
-          link: "contribute"
+          link: "contribute/"
         }
       ]
     }
