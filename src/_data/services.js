@@ -8,11 +8,11 @@ module.exports = {
       link: "https://meet.altertek.org/"
     },
     {
-      img: "../../assets/images/services/mobilizon.png",
-      title: "Event",
-      subtitle: "Event management",
-      button: "Create an event",
-      link: "https://event.altertek.org/"
+      img: "../../assets/images/services/matrix.png",
+      title: "Matrix",
+      subtitle: "Messaging",
+      button: "Create an account",
+      link: "https://matrix.altertek.org/"
     }]
   },
   fr: {
@@ -24,11 +24,11 @@ module.exports = {
       link: "https://meet.altertek.org/"
     },
     {
-      img: "../../assets/images/services/mobilizon.png",
-      title: "Event",
-      subtitle: "Gestion d'événements",
-      button: "Créer un événement",
-      link: "https://event.altertek.org/"
+      img: "../../assets/images/services/matrix.png",
+      title: "Matrix",
+      subtitle: "Messagerie instantanée",
+      button: "Créer un compte",
+      link: "https://matrix.altertek.org/"
     }]
   }
 }
