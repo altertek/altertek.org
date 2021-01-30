@@ -18,7 +18,7 @@ module.exports = {
       img: "../../assets/images/services/peertube.jpg",
       title: "Video",
       subtitle: "Video-sharing",
-      button: "See our videos",
+      button: "Browse our videos",
       link: "https://video.altertek.org"
     }]
   },
@@ -41,7 +41,7 @@ module.exports = {
       img: "../../assets/images/services/peertube.jpg",
       title: "Vidéo",
       subtitle: "Hébergement de vidéos",
-      button: "Voir nos vidéos",
+      button: "Parcourir nos vidéos",
       link: "https://video.altertek.org"
     }]
   }
