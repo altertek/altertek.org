@@ -11,8 +11,14 @@ Les services de l'association sont en partie possible grâce aux aides de diffé
 Nous proposons également de l'aide aux associations ayant des valeurs communes aux nôtres.
 Dans cette page, notre définition de "sponsorisation" comprend toute aide matérielle, financiere ou service offerts.
 
+## Nous sommes membre de
+
+- [L'April](https://www.april.org/) depuis février 2021
+
 ## Nous sommes sponsorisés par
 
 - [Github](https://github.com): Nous utilisons un [compte à but non lucratif GitHub](https://github.com/nonprofit) pour notre compte d'organisation github
 
-## Nous sponsorisons
+## Nous soutenons
+
+- [Word Cleanup day](https://www.worldcleanupday.fr): We ensure the IT management
