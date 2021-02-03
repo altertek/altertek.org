@@ -17,7 +17,7 @@ Dans cette page, notre définition de "sponsorisation" comprend toute aide maté
 
 ## Nous soutenons
 
-- [Word Cleanup day](https://www.worldcleanupday.fr): We ensure the IT management
+- [World Cleanup day France](https://www.worldcleanupday.fr): Nous y assurons la gestion des services numériques
 
 ## Nous sommes sponsorisés par
 

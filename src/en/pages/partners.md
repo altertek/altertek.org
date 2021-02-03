@@ -17,7 +17,7 @@ On this page, our definition of "sponsorship" includes any material, financial, 
 
 ## We support
 
-- [Word Cleanup day](https://www.worldcleanupday.fr): Nous y assurons la gestion des problèmatiques IT
+- [Word Cleanup day France](https://www.worldcleanupday.fr): We ensure the IT management
 
 ## We are sponsored by
 
