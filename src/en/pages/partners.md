@@ -7,7 +7,7 @@ permalink: /{{ locale }}/{{ pageName }}/
 
 # {{ title }}
 
-The services of the association are partly possible thanks to the help of different structures.
+The services provided by Altertek are made possible with the help of different contributors, organisations and partners.
 We also offer help to associations with values common to ours.
 On this page, our definition of "sponsorship" includes any material, financial, or service offered.
 

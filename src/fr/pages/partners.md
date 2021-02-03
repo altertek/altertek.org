@@ -7,7 +7,7 @@ permalink: /{{ locale }}/{{ pageName }}/
 
 # {{ title }}
 
-Les services de l'association sont en partie possible grâce aux aides de différences structure.
+Les services fournis par Altertek sont rendus possibles avec l'aide de différents contributeurs, organisations et partenaires.
 Nous proposons également de l'aide aux associations ayant des valeurs communes aux nôtres.
 Dans cette page, notre définition de "sponsorisation" comprend toute aide matérielle, financiere ou service offerts.
 
