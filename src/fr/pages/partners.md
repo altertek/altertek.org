@@ -13,12 +13,12 @@ Dans cette page, notre définition de "sponsorisation" comprend toute aide maté
 
 ## Nous sommes membre de
 
-- [L'April](https://www.april.org/) depuis février 2021
-
-## Nous sommes sponsorisés par
-
-- [Github](https://github.com): Nous utilisons un [compte à but non lucratif GitHub](https://github.com/nonprofit) pour notre compte d'organisation github
+- [L'April](https://www.april.org/)
 
 ## Nous soutenons
 
 - [Word Cleanup day](https://www.worldcleanupday.fr): We ensure the IT management
+
+## Nous sommes sponsorisés par
+
+- [Github](https://github.com): Nous utilisons un [compte à but non lucratif GitHub](https://github.com/nonprofit) pour notre compte d'organisation github
