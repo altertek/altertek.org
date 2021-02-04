@@ -18,8 +18,8 @@ On this page, our definition of "sponsorship" includes any material, financial, 
 
 ## We support
 
-- [Word Cleanup day France](https://www.worldcleanupday.fr): We ensure the IT management
+- [World Cleanup day France](https://www.worldcleanupday.fr): We ensure the IT management
 
 ## We are sponsored by
 
-- [Github](https://github.com): We use a [GitHub nonprofit account](https://github.com/nonprofit) for our github organization account
+- [GitHub](https://github.com): We use a [GitHub nonprofit account](https://github.com/nonprofit) for our GitHub organization account
