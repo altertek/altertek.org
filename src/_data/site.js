@@ -12,6 +12,7 @@ module.exports = {
     contact: "Contact",
     legals: "Legals",
     makeDonation: "Make a donation",
+    modify: "Modify this website",
     languages: [{
       locale: "fr",
       language: "French 🇫🇷"
@@ -30,6 +31,7 @@ module.exports = {
     contact: "Contact",
     legals: "Mentions légales",
     makeDonation: "Faire un don",
+    modify: "Modifier ce site Web ",
     languages: [{
       locale: "fr",
       language: "Français 🇫🇷"
