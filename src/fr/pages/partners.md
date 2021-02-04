@@ -9,7 +9,7 @@ permalink: /{{ locale }}/{{ pageName }}/
 
 Les services fournis par Altertek sont rendus possibles avec l'aide de différents contributeurs, organisations et partenaires.
 Nous proposons également de l'aide aux associations ayant des valeurs communes aux nôtres.
-Dans cette page, notre définition de "sponsorisation" comprend toute aide matérielle, financiere ou service offerts.
+Dans cette page, notre définition de "sponsor" comprend toute aide financière, matérielle ou service offert.
 
 ## Nous sommes membres de
 
