@@ -123,7 +123,7 @@ module.exports = {
       ]
     },
     memberOf: {
-      title: "Nous sommes membres de",
+      title: "Nous sommes membre de",
       refs: [
         {
           name: "L'April",

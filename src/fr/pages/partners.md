@@ -11,7 +11,7 @@ Les services fournis par Altertek sont rendus possibles avec l'aide de différen
 Nous proposons également de l'aide aux associations ayant des valeurs communes aux nôtres.
 Dans cette page, notre définition de "sponsor" comprend toute aide financière, matérielle ou service offert.
 
-## Nous sommes membres de
+## Nous sommes membre de
 
 - [L'April](https://www.april.org/)
 - [Les assembleurs](https://les.assembleurs.co/)
@@ -22,4 +22,4 @@ Dans cette page, notre définition de "sponsor" comprend toute aide financière,
 
 ## Nous sommes sponsorisés par
 
-- [Github](https://github.com): Nous utilisons un [compte à but non lucratif GitHub](https://github.com/nonprofit) pour notre compte d'organisation github
+- [GitHub](https://github.com): Nous utilisons un [compte à but non lucratif GitHub](https://github.com/nonprofit) pour notre compte d'organisation GitHub
