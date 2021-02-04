@@ -11,9 +11,10 @@ Les services fournis par Altertek sont rendus possibles avec l'aide de différen
 Nous proposons également de l'aide aux associations ayant des valeurs communes aux nôtres.
 Dans cette page, notre définition de "sponsorisation" comprend toute aide matérielle, financiere ou service offerts.
 
-## Nous sommes membre de
+## Nous sommes membres de
 
 - [L'April](https://www.april.org/)
+- [Les assembleurs](https://les.assembleurs.co/)
 
 ## Nous soutenons
 

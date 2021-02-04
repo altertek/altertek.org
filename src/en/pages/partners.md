@@ -14,6 +14,7 @@ On this page, our definition of "sponsorship" includes any material, financial, 
 ## We are member of
 
 - [April](https://www.april.org/)
+- [Les assembleurs](https://les.assembleurs.co/)
 
 ## We support
 
