@@ -22,13 +22,6 @@ module.exports = {
         button: "Try MEET",
         link: "https://meet.altertek.org"
       }
-      // {
-      //   img: "../assets/images/photo-1540655037529.webp",
-      //   title: "Simple Video",
-      //   subtitle: "Reduce my resource consumption when watching YouTube",
-      //   button: "Download the plugin",
-      //   link: ""
-      // }
     ],
     showcase: {
       title: "Ethics in technology",
@@ -56,6 +49,31 @@ module.exports = {
           link: "contribute/"
         }
       ]
+    },
+    memberOf: {
+      title: "We are member of",
+      refs: [
+        {
+          name: "L'April",
+          img: "../../assets/images/references/april.png",
+          link: "https://www.april.org/"
+        },
+        {
+          name: "Les assembleurs",
+          img: "../../assets/images/references/assembleurs.png",
+          link: "https://les.assembleurs.co"
+        }
+      ]
+    },
+    weSupport: {
+      title: "We support",
+      refs: [
+        {
+          name: "World CleanUp Day – France",
+          img: "../../assets/images/references/word-cleanup-day.png",
+          link: "https://www.worldcleanupday.fr"
+        }
+      ]
     }
   },
   fr: {
@@ -76,12 +94,6 @@ module.exports = {
         button: "Essayer MEET",
         link: "https://meet.altertek.org"
       }
-      // {
-      //   img:  "../assets/images/photo-1540655037529.webp",
-      //   subtitle:  "Reduire ma consommation de ressources quand je regarde youtube",
-      //   button: "Télécharger le plugin",
-      //   link: ""
-      // }
     ],
     showcase: {
       title: "De l’éthique dans la technologie",
@@ -107,6 +119,31 @@ module.exports = {
           subtitle: "Chacun peut apporter de l'aide à son niveau.",
           button: "Agir avec nous",
           link: "contribute/"
+        }
+      ]
+    },
+    memberOf: {
+      title: "Nous sommes membres de",
+      refs: [
+        {
+          name: "L'April",
+          img: "../../assets/images/references/april.png",
+          link: "https://www.april.org/"
+        },
+        {
+          name: "Les assembleurs",
+          img: "../../assets/images/references/assembleurs.png",
+          link: "https://les.assembleurs.co"
+        }
+      ]
+    },
+    weSupport: {
+      title: "Nous soutenons",
+      refs: [
+        {
+          name: "World CleanUp Day – France",
+          img: "../../assets/images/references/word-cleanup-day.png",
+          link: "https://www.worldcleanupday.fr"
         }
       ]
     }

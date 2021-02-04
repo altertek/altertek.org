@@ -6,21 +6,27 @@ title: Altertek
 {% set items = main[locale].carousel %}
 {% include "partials/carousel.njk" %}
 
+<div class="container marketing">
 
-  <div class="container marketing">
+  {% set item = main[locale].showcase %}
+  {% include "partials/items-showcase.njk" %}
 
-{% set item = main[locale].showcase %}
-{% include "partials/items-showcase.njk" %}
+  <h1>{{ main[locale].news }}</h1>
 
-    <!-- START THE FEATURETTES -->
-
-    <h1>{{ main[locale].news }}</h1>
-
-   {% include "partials/light-card-list.njk" %}
+  {% include "partials/light-card-list.njk" %}
 
     {# <h1>{{ main[locale].publications }}</h1>
 
     {% include "partials/detailed-card-list.njk" %} #}
+
+
+    {% set refs = main[locale].memberOf %}
+    {% include "partials/refs-list.njk" %}
+
+  </br></br>
+
+    {% set refs = main[locale].weSupport %}
+    {% include "partials/refs-list.njk" %}
 
     <hr class="featurette-divider">
 
