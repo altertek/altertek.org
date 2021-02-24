@@ -6,6 +6,7 @@ module.exports = {
   mapUrl: "https://goo.gl/maps/3YTkhCgfEgj1PRAd7",
   en: {
     ourServices: "Our services",
+    internetHardening: "Internet Hardening",
     partners: "Partners",
     about: "About us",
     contribute: "Contribute",
@@ -25,6 +26,7 @@ module.exports = {
   },
   fr: {
     ourServices: "Services",
+    internetHardening: "Renforcement d'Internet",
     partners: "Partenaires",
     about: "A propos",
     contribute: "Contribuer",
