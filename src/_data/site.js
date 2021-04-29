@@ -26,7 +26,7 @@ module.exports = {
   },
   fr: {
     ourServices: "Services",
-    ourSoftware: "Projets",
+    software: "Logiciels",
     partners: "Partenaires",
     about: "A propos",
     contribute: "Contribuer",

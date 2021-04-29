@@ -1,0 +1,11 @@
+---
+layout: 'layouts/simple-page.njk'
+title: Logiciels
+pageName: software
+permalink: /{{ locale }}/{{ pageName }}/
+---
+
+<h1>{{ title }}</h1>
+
+{% set items = software[locale].software %}
+{% include "partials/light-card-list.njk" %}
