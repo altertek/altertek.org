@@ -1,21 +1,48 @@
-<!-- FOOTER -->
-<footer class="container">
 
-  <p class="text-center">
-    <a href="{{ site.networks.twitter }}" aria-label="twitter" rel="noopener noreferrer" target="_blank"><i aria-hidden="true" style="font-size: 1.5em;" class="fab fa-twitter"></i></a>
-    <a href="{{ site.networks.github }}" aria-label="github" rel="noopener noreferrer" target="_blank"><i aria-hidden="true" style="font-size: 1.5em;" class="fab fa-github"></i></a>
-    {# <a href="https://github.com/altertek"><i style="font-size: 1.5em;" class="fab fa-mastodon"></i></a>
-    <a href="https://github.com/altertek"><i style="font-size: 1.5em;" class="fa fa-video"></i></a>
-    <a href="https://github.com/altertek"><i style="font-size: 1.5em;" class="fa fa-rss"></i></a> #}
-  </p>
-  <p class="text-center">
-       <a href="https://altertek.statuspage.io" rel="noopener noreferrer" target="_blank">Status</a>
-     | <a href="/{{ locale }}/contact/">{{ site[locale].contact }}</a>
-     | <a href="/{{ locale }}/legals/">{{ site[locale].legals }}</a>
-     | <a href="https://github.com/altertek/altertek.org" rel="noopener noreferrer" target="_blank">{{ site[locale].modify }}</a>
-     {# | <a href="/{{ locale }}/privacy/">{{ site[locale].privacy }}</a> #}
-  </p>
-      <p class="float-right"><a href="#"><i style="font-size: 1.5em;" class="fa fa-angle-up"></i></a></p>
-  <p class="text-center">&copy; 2020 Altertek  &middot;  build with the <a href="https://www.sustainablewebmanifesto.com/" rel="noopener noreferrer" target="_blank">Sustainable Web Manifesto</a> principles  &middot; content under <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener noreferrer" target="_blank">Creative Commons BY-SA</a>.</p>
+<footer>
+<div class="container">
+<p>{{ site[locale].footer.donationReminder }}</p>
 
+
+  <hr/>
+  <div class="row">
+     <div class="col-2 text-center">
+       <img style="height: 5rem;" src="/assets/images/logo-200x200.png" alt="Altertek logo">
+     </div>
+     <div class="col-8">
+       <h5>{{ site[locale].footer.ourMission }}</h5>
+       <p>{{ site[locale].footer.ourMissionDesc }}</p>
+    </div>
+  </div>
+
+  <hr/>
+
+ <div class="row">
+   <div class="col-10">
+   <p>
+        <a href="https://altertek.statuspage.io" rel="noopener noreferrer" target="_blank">Status</a>
+      | <a href="/{{ locale }}/contact/">{{ site[locale].contact }}</a>
+      | <a href="/{{ locale }}/legals/">{{ site[locale].legals }}</a>
+      | <a href="https://github.com/altertek/altertek.org" rel="noopener noreferrer" target="_blank">{{ site[locale].modify }}</a>
+
+
+<br/>
+&copy; 2020 Altertek  &middot;  build with the <a href="https://www.sustainablewebmanifesto.com/" rel="noopener noreferrer" target="_blank">Sustainable Web Manifesto</a> principles  &middot; content under <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener noreferrer" target="_blank">Creative Commons BY-SA</a>.</p>
+
+   </div>
+   <div class="col-2">
+     <p class="text-center">
+       <a href="{{ site.networks.twitter }}" aria-label="twitter" rel="noopener noreferrer" target="_blank"><i aria-hidden="true" style="font-size: 1.5em;" class="fab fa-twitter"></i></a>
+       <a href="{{ site.networks.github }}" aria-label="github" rel="noopener noreferrer" target="_blank"><i aria-hidden="true" style="font-size: 1.5em;" class="fab fa-github"></i></a>
+     </p>
+   </div>
+ </div>
+
+
+
+  <p class="float-right"><a href="#"><i style="font-size: 1.5em;" class="fa fa-angle-up"></i></a></p>
+  <p class="text-center">
+  {{ site[locale].footer.siteCommitment }}
+  </p>
+</div>
 </footer>
