@@ -1,4 +1,5 @@
 const fs = require("fs");
+const { DateTime } = require('luxon');
 
 module.exports = eleventyConfig => {
   // Copy our static assets to the output folder
@@ -18,6 +19,27 @@ module.exports = eleventyConfig => {
       }
     }
   });
+
+  // or, use a Universal filter (an alias for all of the above)
+  eleventyConfig.addFilter("frDate", (date) => {
+    return DateTime.fromJSDate(date).toFormat('dd.MM.yyyy')
+  });
+
+  eleventyConfig.addFilter("engDate", (date) => {
+    return DateTime.fromJSDate(date).toFormat('yyyy.MM.dd')
+  });
+
+  // Return the smallest number argument
+   eleventyConfig.addFilter("min", (...numbers) => {
+     return Math.min.apply(null, numbers);
+   });
+
+   // Get the first `n` elements of a collection.
+     eleventyConfig.addFilter("head", (array, n) => {
+       if( n < 0 ) return array.slice(n);
+
+       return array.slice(0, n);
+     });
 
   // Returning something from the configuration function is optional
   return {
