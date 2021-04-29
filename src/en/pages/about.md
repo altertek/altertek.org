@@ -5,34 +5,24 @@ pageName: about
 permalink: /{{ locale }}/{{ pageName }}/
 ---
 
-# {{ title }}
+<h1 class="section-title">Ethics in technology</h1>
 
-# Altertek: Ethics in technology
+<p class="lead-text">Altertek is a 1901 association under the french law wishing to promote the concept of a technology placing respect for people and the environment as the common denominator of its development.</p>
 
-Altertek is a 1901 association under the french law wishing to promote the concept of a technology placing respect for people and the environment as the common denominator of its development.
+<hr/>
 
-### WHY?
-
+**WHY ?** <br/>
 The use of digital technology is taking more and more place in our life but we note with regret that its development responds to financial interests to the detriment of users and the world in which we live.
 At our level, we want to put in place solutions that put people, society and the environment back at the center of priorities and offer concrete alternatives to the excesses of technology.
 
-### FOR WHOM?
-
+**FOR WHOM?** <br/>
 The use of digital technology is for everyone. Therefore our association is addressed to all.
 
 ### OUR GOALS
 
-#### Reduce
-
-Research to reduce technology consumption as a whole towards a digital sobriety.
-
-#### Create
-
-Creating and promoting tools diminishing our ecological footprint.
-
-#### Educate
-
-Raise public awareness and publish good practice guides.
+**Reduce** technology consumption as a whole towards a digital sobriety.<br/>
+**Create** and promote tools diminishing our ecological footprint.<br/>
+**Educate** and raise public awareness and publish good practice guides.<br/>
 
 ### OUR ACTIONS
 

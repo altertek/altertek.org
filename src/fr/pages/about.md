@@ -1,38 +1,28 @@
 ---
 layout: 'layouts/simple-page.njk'
-title: À propos
+title: "À propos"
 pageName: about
 permalink: /{{ locale }}/{{ pageName }}/
 ---
+<h1 class="section-title">De l'éthique dans la technologie</h1>
 
-# {{ title }}
+<p class="lead-text">Altertek est une association loi 1901 souhaitant promouvoir le concept d'une technologie plaçant le respect de l'humain et de l’environnement comme dénominateur commun de son développement.</p>
 
-# Altertek: De l'éthique dans la technologie
+<hr/>
 
-Altertek est une association loi 1901 souhaitant promouvoir le concept d'une technologie plaçant le respect de l'humain et de l’environnement comme dénominateur commun de son développement.
 
-### POURQUOI ?
-
+**POURQUOI ?** <br/>
 L'utilisation du numérique prend de plus en plus de place dans notre vie mais nous constatons avec regret que son développement répond à des intérêts financiers au détriment des utilisateurs et du monde dans lequel nous vivons.
 Nous souhaitons à notre échelle mettre en place des solutions replaçant l'humain, la société et l'environnement au centre des priorités et proposer des alternatives concrètes aux dérives de la technologie.
 
-### POUR QUI ?
-
- L'utilisation du numérique s'adresse à tous. Par conséquent notre association s'adresse à tous
+**POUR QUI ?** <br/>
+ L'utilisation du numérique s'adresse à tous. Par conséquent notre association s'adresse à tous.
 
 ### NOS OBJECTIFS
 
-#### Réduire
-
-Recherche de solutions afin de réduire la consommation liée aux nouvelles technologies pour une sobriété numérique
-
-#### Créer
-
-Création et promotion d'outils permettant de diminuer notre empreinte écologique.
-
-#### Éduquer
-
-Sensibilisation et mise en place de guides de bonnes pratiques
+**Réduire** la consommation liée aux nouvelles technologies pour une sobriété numérique et rechercher des solutions <br/>
+**Créer** et promouvoir des outils permettant de diminuer notre empreinte écologique <br/>
+**Éduquer** en sensibilisant et en proposant des guides de bonnes pratiques au numérique responsable <br/>
 
 ### NOS ACTIONS
 

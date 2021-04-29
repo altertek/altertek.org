@@ -7,6 +7,7 @@ module.exports = {
   en: {
     news: "News",
     publications: "Publications",
+    showNews: "All the news",
     carousel: [
       {
         img: "../assets/images/photo-1575761344173.webp",
@@ -78,6 +79,7 @@ module.exports = {
   },
   fr: {
     news: "Nos actualités",
+    showNews: "Toutes les actualités",
     publications: "Nos publications",
     carousel: [
       {
@@ -109,7 +111,7 @@ module.exports = {
         {
           icon: "server",
           title: "Nos services",
-          subtitle: "Des outils libres de droits, respectueux de la vie privée des utilisateurs et hébergés sur des serveurs à consommation responsable.",
+          subtitle: "Des outils libres de droits, respectueux de la vie privée et hébergés sur des serveurs responsable.",
           button: "Découvrir nos services",
           link: "services/"
         },

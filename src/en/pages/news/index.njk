@@ -1,0 +1,16 @@
+---
+layout: 'layouts/simple-page.njk'
+title: Nos actualités
+pageName: news
+permalink: /{{ locale }}/{{ pageName }}/
+---
+
+<h1 class="section-title">{{ title }}</h1>
+
+<hr/>
+
+
+{% set posts = collections.newsEng %}
+{% set postslistCounter = collections.news | length %}
+
+{% include "partials/posts-list.njk" %}

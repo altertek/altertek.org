@@ -1,0 +1,15 @@
+---
+layout: 'layouts/simple-page.njk'
+title: Our Services
+pageName: services
+permalink: /{{ locale }}/{{ pageName }}/
+---
+
+<h1 class="section-title">{{ title }}</h1>
+
+<p class="lead-text">Tools free of rights, respectful of users' privacy and hosted on servers for responsible consumption.</p>
+
+<hr/>
+
+{% set items = services[locale].services %}
+{% include "partials/light-card-list.njk" %}
