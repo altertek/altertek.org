@@ -1,6 +1,6 @@
 module.exports = {
   en: {
-    softwares: [{
+    software: [{
       img: "../../assets/images/software/whatimupto.png",
       title: "Whatimupto",
       subtitle: "Linktree alternative",
