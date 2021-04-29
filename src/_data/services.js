@@ -3,7 +3,7 @@ module.exports = {
     services: [{
       img: "../../assets/images/services/jitsi.png",
       title: "Meet",
-      subtitle: "video conference",
+      subtitle: "Video conference",
       button: "Create a room",
       link: "https://meet.altertek.org/"
     },

@@ -1,5 +1,5 @@
 <header>
-<nav class="navbar navbar-expand-md navbar-dark fixed-top " style="background-color: #3F51B5; padding: .0rem 1rem;">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top menu">
 <a class="navbar-brand" href="/{{ locale }}/">
   <img src="/assets/images/logo-32x32.png" class="d-inline-block align-top" alt="altertek logo" loading="lazy"> <span >Altertek</span>
 </a>
@@ -9,13 +9,13 @@
 <div class="collapse navbar-collapse" id="navbarCollapse">
   <ul class="navbar-nav mr-auto">
     <li class="nav-item custom-nav-item">
-      <a class="nav-link " href="/{{ locale }}/services/">{{ site[locale].ourServices }}</a>
+      <a class="nav-link" href="/{{ locale }}/services/">{{ site[locale].ourServices }}</a>
     </li>
     <li class="nav-item custom-nav-item">
-      <a class="nav-link " href="/{{ locale }}/partners/">{{ site[locale].partners }}</a>
+      <a class="nav-link" href="/{{ locale }}/partners/">{{ site[locale].partners }}</a>
     </li>
     <li class="nav-item custom-nav-item">
-      <a class="nav-link " href="/{{ locale }}/about/">{{ site[locale].about }}</a>
+      <a class="nav-link" href="/{{ locale }}/about/">{{ site[locale].about }}</a>
     </li>
   </ul>
 
@@ -33,14 +33,14 @@
 </a>
 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
   {% for language in site[locale].languages %}
-     <a class="dropdown-item" href="/{{ language.locale }}/{{ pageName }}{{ "/" if pageName }}"> {{ language.language }}</a>
+     <a class="nav-link dropdown-item" href="/{{ language.locale }}/{{ pageName }}{{ "/" if pageName }}"> {{ language.language }}</a>
   {% endfor %}
 </div>
 </li>
 
 
     <li class="nav-item custom-nav-lang">
-      <a class="btn btn-outline-light" href="https://www.helloasso.com/associations/altertek/formulaires/1/{{ locale }}/" rel="noopener noreferrer" target="_blank" role="button"><i class="fa fa-heart"></i>&nbsp; {{ site[locale].makeDonation }}</a>
+      <a class="btn btn-lg btn-altertek" href="https://www.helloasso.com/associations/altertek/formulaires/1/{{ locale }}/" rel="noopener noreferrer" target="_blank" role="button"><i class="fa fa-heart"></i>&nbsp; {{ site[locale].makeDonation }}</a>
     </li>
   </ul>
 </div>
