@@ -4,30 +4,115 @@
 
 body {
   padding-top: 4rem;
-  padding-bottom: 3rem;
-  color: #5a5a5a;
+  font-family: "Helvetica Neue","Arial",sans-serif !important;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #000;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
-  color: #3F51B5;
-  margin: 30px 0px 30px 0px;
+  margin-bottom: 32px;
+  font-family: "Helvetica Neue","Arial",sans-serif;
+  font-size: 2.7rem;
+  font-weight: 400;
+  line-height: 4rem;
+  letter-spacing: normal;
+  font-style: normal;
+  text-align: center;
 }
 
-h2, h3 {
-  color: #3F51B5;
-  margin: 25px 0px 25px 0px;
+
+h2 {
+  margin-bottom: 12px;
+  font-family: "Helvetica Neue","Arial",sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2.3rem;
+  letter-spacing: normal;
+  font-style: normal;
+  margin-bottom: 47px;
+  margin-top: 30px;
 }
 
+h3 {
+  font-family: "Helvetica Neue","Arial",sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.3rem;
+  letter-spacing: normal;
+  font-style: normal;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+h4 {
+  font-family: "Helvetica Neue","Arial",sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.35rem;
+  letter-spacing: normal;
+  font-style: normal;
+  margin: 0;
+}
+
+
+/* } */
+
+p {
+
+
+font-family: "SourceSansPro","Helvetica Neue","Arial",sans-serif;
+font-size: 1.2rem;
+font-weight: 400;
+line-height: 1.3;
+letter-spacing: normal;
+font-style: normal;
+
+}
 
 a {
-  color: #3F51B5;
-  text-decoration: none;
-  background-color: transparent;
+  color: #000;
+  text-decoration: underline;
 }
 
 a:hover {
-  color: #303F9F;
+  color: #2979ff;
   text-decoration: underline;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+  margin-top: 4.2em;
+  color: #fff;
+  background-color: #1c1c1c;
+  padding: 1em;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer hr {
+  background-color: rgba(255,255,255,0.4);
+}
+
+hr {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  border: 0;
+  border-top-color: currentcolor;
+  border-top-style: none;
+  border-top-width: 0px;
+  border-top: 1px solid rgba(0,0,0,.1);
 }
 
 .text-left {
@@ -42,9 +127,11 @@ a:hover {
   text-align: center;
 }
 
-
 .expose-title {
   background-color: black;
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .custom-nav-lang {
@@ -52,32 +139,66 @@ a:hover {
 }
 
 .custom-nav-item, .nav-link {
-  color: #E8EAF6 !important;
+  color: #000 !important;
   border-bottom: 1px solid transparent;
   padding: 10px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-decoration: none;
+}
+
+.custom-nav-item {
+  border-bottom: 3px solid transparent;
+  border-bottom-color: transparent;
 }
 
 .custom-nav-item:hover {
-  color: white !important;
-  border-bottom: 1px solid transparent;
-  border-bottom-color: transparent;
-  border-bottom-color: white !important;
+  border-bottom: 3px solid transparent;
+  border-bottom-color: #000 !important;
+}
+
+.menu {
+  background-color: #fff;
+  padding: .0rem 1rem;
+  border-bottom: 1px solid #E0E0E0;
+  text-transform: uppercase;
+}
+
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0 !important;
+}
+
+.section-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.lead-text {
+  font-family: "Times New Roman","Times",serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.9rem;
+  letter-spacing: normal;
+  font-style: normal;
+  text-align: center;
 }
 
 .btn-altertek {
     color: #fff;
-    background-color: #3F51B5;
-    border-color: #3F51B5;
+    background-color: #2979ff;
+    border-color: #2979ff;
 }
 
 .btn-altertek:hover {
     color: #fff;
-    background-color: #303F9F;
-    border-color: #303F9F;
+    background-color: #004ecb;
+    border-color: #004ecb;
 }
 
 .btn-outline-altertek {
-    color: #3F51B5;
+    color: #00e676;
     border-color: #3F51B5;
 }
 
@@ -85,6 +206,23 @@ a:hover {
     color: #fff;
     background-color: #3F51B5;
     border-color: #3F51B5;
+}
+
+.highlight {
+  height: 27rem;
+  display: block;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: #90caf9;
+}
+
+.no-line {
+  text-decoration: none;
+}
+
+.no-line:hover {
+  text-decoration: none;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -103,6 +241,7 @@ a:hover {
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
+
 }
 .carousel-item > img {
   position: absolute;
@@ -113,6 +252,10 @@ a:hover {
 }
 
 
+.card-title {
+    margin-bottom: .2rem;
+}
+
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -121,12 +264,23 @@ a:hover {
   margin-bottom: 1.5rem;
   text-align: center;
 }
-.marketing h2 {
-  font-weight: 400;
-}
+
 .marketing .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
+}
+
+.big-divider {
+   margin: 2.5rem 0 !important;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 
@@ -164,5 +318,11 @@ a:hover {
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
   }
 }
