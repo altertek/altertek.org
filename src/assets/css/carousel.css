@@ -9,7 +9,7 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #000;
-  background-color: #fff;
+  background-color: #f0f2ef;
   display: flex;
   flex-direction: column;
 }
@@ -215,14 +215,6 @@ hr {
   width: 100%;
   overflow: hidden;
   background-color: #90caf9;
-}
-
-.no-line {
-  text-decoration: none;
-}
-
-.no-line:hover {
-  text-decoration: none;
 }
 
 /* CUSTOMIZE THE CAROUSEL
