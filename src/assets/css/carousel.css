@@ -8,7 +8,7 @@ body {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
-  color: #000;
+  color: #1d1d1f;
   background-color: #f0f2ef;
   display: flex;
   flex-direction: column;
@@ -75,7 +75,7 @@ font-style: normal;
 }
 
 a {
-  color: #000;
+  color: #1d1d1f;
   text-decoration: underline;
 }
 
@@ -92,7 +92,7 @@ footer {
   flex-shrink: 0;
   margin-top: 4.2em;
   color: #fff;
-  background-color: #1c1c1c;
+  background-color: #1d1d1f;
   padding: 1em;
 }
 
@@ -139,7 +139,7 @@ hr {
 }
 
 .custom-nav-item, .nav-link {
-  color: #000 !important;
+  color: #1d1d1f !important;
   border-bottom: 1px solid transparent;
   padding: 10px;
   font-weight: 600;
@@ -154,7 +154,7 @@ hr {
 
 .custom-nav-item:hover {
   border-bottom: 3px solid transparent;
-  border-bottom-color: #000 !important;
+  border-bottom-color: #1d1d1f !important;
 }
 
 .menu {
