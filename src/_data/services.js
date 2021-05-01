@@ -1,7 +1,7 @@
 module.exports = {
   en: {
     services: [{
-      img: "../../assets/images/services/jitsi.png",
+      img: "../../assets/images/services/jitsi.webp",
       title: "Meet",
       subtitle: "Video conference",
       button: "Create a room",
@@ -15,7 +15,7 @@ module.exports = {
       link: "https://matrix.altertek.org/"
     },
     {
-      img: "../../assets/images/services/peertube.jpg",
+      img: "../../assets/images/services/peertube.webp",
       title: "Video",
       subtitle: "Video-sharing",
       button: "Browse our videos",
@@ -24,7 +24,7 @@ module.exports = {
   },
   fr: {
     services: [{
-      img: "../../assets/images/services/jitsi.png",
+      img: "../../assets/images/services/jitsi.webp",
       title: "Meet",
       subtitle: "Conférence vidéo",
       button: "Créer un salon",
@@ -38,7 +38,7 @@ module.exports = {
       link: "https://matrix.altertek.org/"
     },
     {
-      img: "../../assets/images/services/peertube.jpg",
+      img: "../../assets/images/services/peertube.webp",
       title: "Vidéo",
       subtitle: "Hébergement de vidéos",
       button: "Parcourir nos vidéos",
