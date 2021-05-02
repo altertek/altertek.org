@@ -2,6 +2,14 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+@font-face {
+  font-family: 'ForkAwesome';
+  src: url('../fonts/forkawesome-webfont.eot?v=1.1.7');
+  src: url('../fonts/forkawesome-webfont.eot?#iefix&v=1.1.7') format('embedded-opentype'), url('../fonts/forkawesome-webfont.woff2?v=1.1.7') format('woff2'), url('../fonts/forkawesome-webfont.woff?v=1.1.7') format('woff'), url('../fonts/forkawesome-webfont.ttf?v=1.1.7') format('truetype'), url('../fonts/forkawesome-webfont.svg?v=1.1.7#forkawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   padding-top: 4rem;
   font-family: "Helvetica Neue","Arial",sans-serif !important;
@@ -24,6 +32,8 @@ h1 {
   font-style: normal;
   text-align: center;
 }
+
+
 
 
 h2 {
