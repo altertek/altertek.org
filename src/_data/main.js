@@ -129,7 +129,7 @@ module.exports = {
       refs: [
         {
           name: "L'April",
-          img: "../../assets/images/references/april.png",
+          img: "../../assets/images/references/april.webp",
           link: "https://www.april.org/"
         },
         {
@@ -144,7 +144,7 @@ module.exports = {
       refs: [
         {
           name: "World CleanUp Day – France",
-          img: "../../assets/images/references/word-cleanup-day.png",
+          img: "../../assets/images/references/word-cleanup-day.webp",
           link: "https://www.worldcleanupday.fr"
         }
       ]
