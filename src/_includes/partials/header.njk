@@ -26,9 +26,9 @@
 
     <li class="nav-item custom-nav-item">
     {% if locale == 'fr' %}
-    <a class="nav-link" href="/en/{{ pageName }}{{ "/" if pageName }}">EN&nbsp;🇬🇧</a>
+    <a class="nav-link" href="/en/{{ pageName }}{{ "/" if pageName }}">EN</a>
     {% else %}
-    <a class="nav-link" href="/fr/{{ pageName }}{{ "/" if pageName }}">FR&nbsp;🇫🇷</a>
+    <a class="nav-link" href="/fr/{{ pageName }}{{ "/" if pageName }}">FR</a>
     {% endif %}
 
 
@@ -40,7 +40,7 @@
 
 
     <li class="nav-item custom-nav-lang">
-      <a class="btn btn-lg btn-altertek" href="https://www.helloasso.com/associations/altertek/formulaires/1/{{ locale }}/" rel="noopener noreferrer" target="_blank" role="button"><i class="fa fa-heart"></i>&nbsp; {{ site[locale].makeDonation }}</a>
+      <a class="btn btn-lg btn-altertek" href="https://www.helloasso.com/associations/altertek/formulaires/1/{{ locale }}/" rel="noopener noreferrer" target="_blank" role="button"> {{ site[locale].makeDonation }}</a>
     </li>
   </ul>
 </div>

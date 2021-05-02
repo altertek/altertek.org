@@ -20,11 +20,11 @@ module.exports = {
     },
     languages: [{
       locale: "fr",
-      language: "Français 🇫🇷"
+      language: "Français"
     },
     {
       locale: "en",
-      language: "English 🇬🇧"
+      language: "English"
     }
     ]
   },
@@ -45,11 +45,11 @@ module.exports = {
     },
     languages: [{
       locale: "fr",
-      language: "Français 🇫🇷"
+      language: "Français"
     },
     {
       locale: "en",
-      language: "English 🇬🇧"
+      language: "English"
     }
     ]
   }
