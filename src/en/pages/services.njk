@@ -11,5 +11,5 @@ permalink: /{{ locale }}/{{ pageName }}/
 
 <hr/>
 
-{% set items = services[locale].services %}
-{% include "partials/light-card-list.njk" %}
+  {% set item = services[locale].services %}
+  {% include "partials/items-showcase.njk" %}
