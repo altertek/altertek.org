@@ -4,13 +4,13 @@ module.exports = {
     github: "https://github.com/altertek"
   },
   en: {
-    ourServices: "Our services",
+    ourServices: "Services",
     partners: "Partners",
     about: "About us",
     contribute: "Contribute",
     contact: "Contact",
     legals: "Legals",
-    makeDonation: "Make a donation",
+    makeDonation: "Donate",
     modify: "Modify this website",
     footer: {
       donationReminder: "A part of the amount you donate to Altertek may be deducted from your income tax in Europe.",
