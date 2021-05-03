@@ -43,19 +43,19 @@ module.exports = eleventyConfig => {
        return array.slice(0, n);
      });
 
-     eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
-       // Eleventy 1.0+: use this.inputPath and this.outputPath instead
-       if( outputPath && outputPath.endsWith(".html") ) {
-         let minified = htmlmin.minify(content, {
-           useShortDoctype: true,
-           removeComments: true,
-           collapseWhitespace: true
-         });
-         return minified;
-       }
-
-       return content;
-     });
+     // eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
+     //   // Eleventy 1.0+: use this.inputPath and this.outputPath instead
+     //   if( outputPath && outputPath.endsWith(".html") ) {
+     //     let minified = htmlmin.minify(content, {
+     //       useShortDoctype: true,
+     //       removeComments: true,
+     //       collapseWhitespace: true
+     //     });
+     //     return minified;
+     //   }
+     //
+     //   return content;
+     // });
 
   // Returning something from the configuration function is optional
   return {
