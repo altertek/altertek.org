@@ -1,7 +1,7 @@
 
 <footer>
 <div class="container">
-<p>{{ site[locale].footer.donationReminder }}</p>
+<p class="text-center">{{ site[locale].footer.donationReminder }}</p>
 
 
   <hr/>
@@ -24,10 +24,10 @@
       | <a href="/{{ locale }}/contact/">{{ site[locale].contact }}</a>
       | <a href="/{{ locale }}/legals/">{{ site[locale].legals }}</a>
       | <a href="https://github.com/altertek/altertek.org" rel="noopener noreferrer" target="_blank">{{ site[locale].modify }}</a>
-
+</p>
 
 <br/>
-&copy; 2020 Altertek  &middot;  build with the <a href="https://www.sustainablewebmanifesto.com/" rel="noopener noreferrer" target="_blank">Sustainable Web Manifesto</a> principles  &middot; content under <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener noreferrer" target="_blank">Creative Commons BY-SA</a>.</p>
+<p>Build with the <a href="https://www.sustainablewebmanifesto.com/" rel="noopener noreferrer" target="_blank">Sustainable Web Manifesto</a> principles  &middot; content under <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener noreferrer" target="_blank">Creative Commons BY-SA</a>.</p>
 
    </div>
    <div class="col-2">
@@ -41,8 +41,8 @@
 
 
   <p class="float-right"><a href="#"><i class="fa fa-angle-double-up fa-2x" aria-hidden="true"></i></a></p>
-  <p class="text-center">
-  {{ site[locale].footer.siteCommitment }}
-  </p>
+  <small><i>{{ site[locale].footer.siteCommitment }}</i></small>
+
 </div>
+
 </footer>
