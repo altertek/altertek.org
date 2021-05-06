@@ -7,6 +7,7 @@ module.exports = {
   en: {
     news: "News",
     publications: "Publications",
+    showNews: "All the news",
     carousel: [
       {
         img: "../assets/images/photo-1575761344173.webp",
@@ -42,7 +43,7 @@ module.exports = {
           link: "services/"
         },
         {
-          icon: "hands-helping",
+          icon: "handshake-o",
           title: "Help us",
           subtitle: "Everyone can help at their own level.",
           button: "Act with us",
@@ -55,12 +56,12 @@ module.exports = {
       refs: [
         {
           name: "L'April",
-          img: "../../assets/images/references/april.png",
+          img: "../../assets/images/references/april.webp",
           link: "https://www.april.org/"
         },
         {
           name: "Les assembleurs",
-          img: "../../assets/images/references/assembleurs.png",
+          img: "../../assets/images/references/assembleurs.webp",
           link: "https://les.assembleurs.co"
         }
       ]
@@ -70,7 +71,7 @@ module.exports = {
       refs: [
         {
           name: "World CleanUp Day – France",
-          img: "../../assets/images/references/word-cleanup-day.png",
+          img: "../../assets/images/references/word-cleanup-day.webp",
           link: "https://www.worldcleanupday.fr"
         }
       ]
@@ -78,6 +79,7 @@ module.exports = {
   },
   fr: {
     news: "Nos actualités",
+    showNews: "Toutes les actualités",
     publications: "Nos publications",
     carousel: [
       {
@@ -109,12 +111,12 @@ module.exports = {
         {
           icon: "server",
           title: "Nos services",
-          subtitle: "Des outils libres de droits, respectueux de la vie privée des utilisateurs et hébergés sur des serveurs à consommation responsable.",
+          subtitle: "Des outils libres de droits, respectueux de la vie privée et hébergés sur des serveurs responsable.",
           button: "Découvrir nos services",
           link: "services/"
         },
         {
-          icon: "hands-helping",
+          icon: "handshake-o",
           title: "Nous Aider",
           subtitle: "Chacun peut apporter de l'aide à son niveau.",
           button: "Agir avec nous",
@@ -127,12 +129,12 @@ module.exports = {
       refs: [
         {
           name: "L'April",
-          img: "../../assets/images/references/april.png",
+          img: "../../assets/images/references/april.webp",
           link: "https://www.april.org/"
         },
         {
           name: "Les assembleurs",
-          img: "../../assets/images/references/assembleurs.png",
+          img: "../../assets/images/references/assembleurs.webp",
           link: "https://les.assembleurs.co"
         }
       ]
@@ -142,7 +144,7 @@ module.exports = {
       refs: [
         {
           name: "World CleanUp Day – France",
-          img: "../../assets/images/references/word-cleanup-day.png",
+          img: "../../assets/images/references/word-cleanup-day.webp",
           link: "https://www.worldcleanupday.fr"
         }
       ]

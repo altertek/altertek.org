@@ -12,44 +12,45 @@ title: Altertek
     <meta name="generator" content="eleventy">
     <title>{{ title }}</title>
     <link rel="icon" type="image/png" href="/assets/images/logo-32x32.png">
-
-    <!-- Bootstrap core CSS -->
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/assets/css/all.min.css" rel="stylesheet" media="all">
     <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
+.fade:not(.show) {
+  opacity: 0;
+}
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
+.collapse:not(.show) {
+  display: none;
+}
+
     </style>
-    <link href="/assets/css/all.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="/assets/css/carousel.css" rel="stylesheet">
+<script>
+
+
+function dropdown() {
+ const elem = document.getElementById("navbarCollapse").className;
+ if (elem.includes('show')) {
+  document.getElementById("toggler").className = "navbar-toggler collapsed";
+  document.getElementById("navbarCollapse").className = "navbar-collapse collapse";
+ } else {
+  document.getElementById("toggler").className = "navbar-toggler";
+  document.getElementById("navbarCollapse").className = "navbar-collapse collapse show";
+ }
+
+}
+</script>
   </head>
-  <body style="background-color: #E8EAF6;">
+  <body>
     {% set site = site %}
     {% set locale = locale %}
 
-    {% include "partials/header.njk" %}
-  <main role="main">
-
+{% include "partials/header.njk" %}
+  <main >
     {{ content | safe }}
-
   </main>
-  <script src="/assets/js/jquery-3.5.1.slim.min.js"></script>
-  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+
+
 
     {% include "partials/footer.njk" %}
-
   </body>
+
 </html>
