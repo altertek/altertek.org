@@ -86,6 +86,16 @@ module.exports = {
           link: "https://www.worldcleanupday.fr"
         },
         {
+          name: "ANV COP21",
+          img: "../../assets/images/references/anv-cop21.webp",
+          link: "https://anv-cop21.org"
+        },
+        {
+          name: "Alternatiba",
+          img: "../../assets/images/references/alternatiba.webp",
+          link: "https://alternatiba.eu"
+        },
+        {
           name: "Cyber World CleanUp Day",
           img: "../../assets/images/references/cwud.webp",
           link: "https://cyberworldcleanupday.fr"
@@ -173,6 +183,16 @@ module.exports = {
           name: "World CleanUp Day – France",
           img: "../../assets/images/references/word-cleanup-day.webp",
           link: "https://www.worldcleanupday.fr"
+        },
+        {
+          name: "Alternatiba",
+          img: "../../assets/images/references/alternatiba.webp",
+          link: "https://alternatiba.eu"
+        },
+        {
+          name: "ANV COP21",
+          img: "../../assets/images/references/anv-cop21.webp",
+          link: "https://anv-cop21.org"
         },
         {
           name: "Cyber World CleanUp Day",
