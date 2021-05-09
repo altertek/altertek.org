@@ -76,9 +76,19 @@ module.exports = {
       title: "We support",
       refs: [
         {
+          name: "Zero Waste France",
+          img: "../../assets/images/references/zerowaste.webp",
+          link: "https://www.zerowastefrance.org"
+        },
+        {
           name: "World CleanUp Day – France",
           img: "../../assets/images/references/word-cleanup-day.webp",
           link: "https://www.worldcleanupday.fr"
+        },
+        {
+          name: "Cyber World CleanUp Day",
+          img: "../../assets/images/references/cwud.webp",
+          link: "https://cyberworldcleanupday.fr"
         }
       ]
     }
@@ -155,9 +165,19 @@ module.exports = {
       title: "Nous soutenons",
       refs: [
         {
+          name: "Zero Waste France",
+          img: "../../assets/images/references/zerowaste.webp",
+          link: "https://www.zerowastefrance.org"
+        },
+        {
           name: "World CleanUp Day – France",
           img: "../../assets/images/references/word-cleanup-day.webp",
           link: "https://www.worldcleanupday.fr"
+        },
+        {
+          name: "Cyber World CleanUp Day",
+          img: "../../assets/images/references/cwud.webp",
+          link: "https://cyberworldcleanupday.fr"
         }
       ]
     }
