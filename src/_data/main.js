@@ -5,6 +5,12 @@ module.exports = {
   },
   mapUrl: "https://goo.gl/maps/3YTkhCgfEgj1PRAd7",
   en: {
+    highlight: {
+      title: "May 21 - webinar: Our digital uses in the face of climate issues!",
+      desc: "Digital technology is also disrupting the climate, but how? And above all, what can we do about it? ",
+      link: "https://popschool.fr/2021/05/03/21-mai-nos-usages-numeriques-face-aux-enjeux-climatiques/",
+      button: "Subscribe to the webinar"
+    },
     news: "News",
     publications: "Publications",
     showNews: "All the news",
@@ -78,6 +84,12 @@ module.exports = {
     }
   },
   fr: {
+    highlight: {
+      title: "21 mai - webinaire : Nos usages numériques face aux enjeux climatiques !",
+      desc: "Le numérique aussi dérègle le climat, mais comment ? Et surtout, que pouvons-nous y faire ?",
+      link: "https://popschool.fr/2021/05/03/21-mai-nos-usages-numeriques-face-aux-enjeux-climatiques/",
+      button: "S'inscrire au webinaire"
+    },
     news: "Nos actualités",
     showNews: "Toutes les actualités",
     publications: "Nos publications",
