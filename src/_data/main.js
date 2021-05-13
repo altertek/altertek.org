@@ -6,7 +6,7 @@ module.exports = {
   mapUrl: "https://goo.gl/maps/3YTkhCgfEgj1PRAd7",
   en: {
     highlight: {
-      title: "May 21 - webinar: Our digital uses in the face of climate issues!",
+      title: "May 21 - webinar: The use of digital technologies in the wake of climate change",
       desc: "Digital technology is also disrupting the climate, but how? And above all, what can we do about it? ",
       link: "https://popschool.fr/2021/05/03/21-mai-nos-usages-numeriques-face-aux-enjeux-climatiques/",
       button: "Subscribe to the webinar"
