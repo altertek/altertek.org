@@ -22,7 +22,7 @@ module.exports = {
         icon: "play",
         title: "Video",
         subtitle: "Video-sharing",
-        button: "Browse our videos",
+        button: "Browse the videos",
         link: "https://video.altertek.org"
       }]
     }
@@ -50,7 +50,7 @@ module.exports = {
         icon: "play",
         title: "Video",
         subtitle: "Hébergement de vidéos",
-        button: "Parcourir nos vidéos",
+        button: "Parcourir les vidéos",
         link: "https://video.altertek.org"
       }]
     }
