@@ -4,32 +4,46 @@ title: Altertek
 ---
 
 {% set items = main[locale].carousel %}
-{% include "partials/carousel.njk" %}
+{% include "partials/highlight.njk" %}
 
 <div class="container marketing">
 
   {% set item = main[locale].showcase %}
   {% include "partials/items-showcase.njk" %}
 
-  <h1>{{ main[locale].news }}</h1>
+  <h2 class="section-title">{{ main[locale].news }}</h2>
 
-  {% include "partials/light-card-list.njk" %}
+  {% if locale == 'fr' %}
+{% set posts = collections.newsFr | head(-4) %}
+{% set postslistCounter = collections.news | length %}
 
-    {# <h1>{{ main[locale].publications }}</h1>
+  {% else %}
+{% set posts = collections.newsEng | head(-4) %}
+{% set postslistCounter = collections.newsEng | length %}
 
-    {% include "partials/detailed-card-list.njk" %} #}
+  {% endif %}
+
+
+  {% include "partials/posts-list.njk" %}
+
+<div class="container">
+<div class="row">
+  <div class="col-sm-12 text-center">
+    <a class="btn btn-altertek" href="/{{ locale }}/news" role="button">{{ main[locale].showNews }}</a>
+  </div>
+</div>
+    <br/>
+</div>
+
 
 
     {% set refs = main[locale].memberOf %}
     {% include "partials/refs-list.njk" %}
 
-  </br></br>
+  <br/><br/>
 
     {% set refs = main[locale].weSupport %}
     {% include "partials/refs-list.njk" %}
 
-    <hr class="featurette-divider">
-
-    <!-- /END THE FEATURETTES -->
 
   </div><!-- /.container -->

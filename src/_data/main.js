@@ -5,8 +5,15 @@ module.exports = {
   },
   mapUrl: "https://goo.gl/maps/3YTkhCgfEgj1PRAd7",
   en: {
+    highlight: {
+      title: "May 21 - webinar: The use of digital technologies in the wake of climate change",
+      desc: "Digital technology is also disrupting the climate, but how? And above all, what can we do about it? ",
+      link: "https://popschool.fr/2021/05/03/21-mai-nos-usages-numeriques-face-aux-enjeux-climatiques/",
+      button: "Subscribe to the webinar"
+    },
     news: "News",
     publications: "Publications",
+    showNews: "All the news",
     carousel: [
       {
         img: "../assets/images/photo-1575761344173.webp",
@@ -42,7 +49,7 @@ module.exports = {
           link: "services/"
         },
         {
-          icon: "hands-helping",
+          icon: "handshake-o",
           title: "Help us",
           subtitle: "Everyone can help at their own level.",
           button: "Act with us",
@@ -55,12 +62,12 @@ module.exports = {
       refs: [
         {
           name: "L'April",
-          img: "../../assets/images/references/april.png",
+          img: "../../assets/images/references/april.webp",
           link: "https://www.april.org/"
         },
         {
           name: "Les assembleurs",
-          img: "../../assets/images/references/assembleurs.png",
+          img: "../../assets/images/references/assembleurs.webp",
           link: "https://les.assembleurs.co"
         }
       ]
@@ -70,14 +77,21 @@ module.exports = {
       refs: [
         {
           name: "World CleanUp Day – France",
-          img: "../../assets/images/references/word-cleanup-day.png",
+          img: "../../assets/images/references/word-cleanup-day.webp",
           link: "https://www.worldcleanupday.fr"
         }
       ]
     }
   },
   fr: {
+    highlight: {
+      title: "21 mai - webinaire : Nos usages numériques face aux enjeux climatiques !",
+      desc: "Le numérique aussi dérègle le climat, mais comment ? Et surtout, que pouvons-nous y faire ?",
+      link: "https://popschool.fr/2021/05/03/21-mai-nos-usages-numeriques-face-aux-enjeux-climatiques/",
+      button: "S'inscrire au webinaire"
+    },
     news: "Nos actualités",
+    showNews: "Toutes les actualités",
     publications: "Nos publications",
     carousel: [
       {
@@ -109,12 +123,12 @@ module.exports = {
         {
           icon: "server",
           title: "Nos services",
-          subtitle: "Des outils libres de droits, respectueux de la vie privée des utilisateurs et hébergés sur des serveurs à consommation responsable.",
+          subtitle: "Des outils libres de droits, respectueux de la vie privée et hébergés sur des serveurs responsable.",
           button: "Découvrir nos services",
           link: "services/"
         },
         {
-          icon: "hands-helping",
+          icon: "handshake-o",
           title: "Nous Aider",
           subtitle: "Chacun peut apporter de l'aide à son niveau.",
           button: "Agir avec nous",
@@ -127,12 +141,12 @@ module.exports = {
       refs: [
         {
           name: "L'April",
-          img: "../../assets/images/references/april.png",
+          img: "../../assets/images/references/april.webp",
           link: "https://www.april.org/"
         },
         {
           name: "Les assembleurs",
-          img: "../../assets/images/references/assembleurs.png",
+          img: "../../assets/images/references/assembleurs.webp",
           link: "https://les.assembleurs.co"
         }
       ]
@@ -142,7 +156,7 @@ module.exports = {
       refs: [
         {
           name: "World CleanUp Day – France",
-          img: "../../assets/images/references/word-cleanup-day.png",
+          img: "../../assets/images/references/word-cleanup-day.webp",
           link: "https://www.worldcleanupday.fr"
         }
       ]
