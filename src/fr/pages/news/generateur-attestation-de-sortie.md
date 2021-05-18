@@ -2,6 +2,7 @@
 layout: 'layouts/simple-page.njk'
 title: "Altertek met à disposition un générateur d'attestation de sortie alternatif"
 description: Cette application est installable sur mobile et pc, fonctionne hors-ligne et ne stocke aucune donnée.
+domain: news
 date: 2020-04-26
 tags:
   - newsFr

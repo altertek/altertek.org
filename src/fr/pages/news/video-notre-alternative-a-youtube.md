@@ -2,6 +2,7 @@
 layout: 'layouts/simple-page.njk'
 title: "VIDEO - Notre alternative à youtube"
 description: Une instance de partage de vidéo basée sur peertube est en ligne et ouverte aux inscriptions.
+domain: news
 date: 2021-02-19
 tags:
   - newsFr

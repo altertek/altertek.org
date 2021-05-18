@@ -2,6 +2,7 @@
 layout: 'layouts/simple-page.njk'
 title: "Le nouveau projet d'Altertek: whatimupto"
 description: Une alternative low-tech et open source à linktree.
+domain: news
 date: 2021-03-03
 tags:
   - newsFr
