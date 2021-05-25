@@ -4,7 +4,8 @@ module.exports = {
     github: "https://github.com/altertek"
   },
   en: {
-    ourServices: "Services",
+    ourServices: "Our services",
+    software: "Software",
     partners: "Partners",
     about: "About us",
     contribute: "Contribute",
@@ -30,6 +31,7 @@ module.exports = {
   },
   fr: {
     ourServices: "Services",
+    software: "Logiciels",
     partners: "Partenaires",
     about: "A propos",
     contribute: "Contribuer",
