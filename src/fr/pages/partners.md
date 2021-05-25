@@ -21,4 +21,5 @@ Dans cette page, notre définition de "sponsor" comprend toute aide financière,
 - [World Cleanup day France](https://www.worldcleanupday.fr): Nous y assurons la gestion des services numériques
 
 ## Nous sommes sponsorisés par
+- [Updown](https://updown.io): Mise à disposition gratuite de [l'offre de monitoring](https://updown.io/#pricing)
 - [GitHub](https://github.com): Nous utilisons un [compte à but non lucratif GitHub](https://github.com/nonprofit) pour notre compte d'organisation GitHub
