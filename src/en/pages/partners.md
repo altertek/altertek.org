@@ -21,4 +21,5 @@ On this page, our definition of "sponsorship" includes any material, financial, 
 - [World Cleanup day France](https://www.worldcleanupday.fr): We ensure the IT management
 
 ## We are sponsored by
+- [Updown](https://updown.io): They offer us their [monitoring solution](https://updown.io/#pricing)
 - [GitHub](https://github.com): We use a [GitHub nonprofit account](https://github.com/nonprofit) for our GitHub organization account
