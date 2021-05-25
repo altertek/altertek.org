@@ -22,3 +22,4 @@ On this page, our definition of "sponsorship" includes any material, financial, 
 
 ## We are sponsored by
 - [GitHub](https://github.com): We use a [GitHub nonprofit account](https://github.com/nonprofit) for our GitHub organization account
+- [updown.io](https://updown.io): updown.io offers free monitoring for all the association's services 

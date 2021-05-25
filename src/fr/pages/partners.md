@@ -22,3 +22,4 @@ Dans cette page, notre définition de "sponsor" comprend toute aide financière,
 
 ## Nous sommes sponsorisés par
 - [GitHub](https://github.com): Nous utilisons un [compte à but non lucratif GitHub](https://github.com/nonprofit) pour notre compte d'organisation GitHub
+- [updown.io](https://updown.io): updown.io offre gracieusement le monitoring pour l'ensemble des services de l'association
