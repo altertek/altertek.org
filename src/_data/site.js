@@ -17,7 +17,7 @@ module.exports = {
       donationReminder: "A part of the amount you donate to Altertek may be deducted from your income tax in Europe.",
       ourMission: "Our mission",
       ourMissionDesc: "Promote responsible digital technology: a technology that places respect for people and nature at the center of its development.",
-      siteCommitment: "This website aims to reduce its environmental footprint. The entire site and the server solution are eco-responsible "
+      siteCommitment: "This website aims to reduce its environmental footprint. The entire site and the server solution are eco-friendly"
     },
     languages: [{
       locale: "fr",
@@ -43,7 +43,7 @@ module.exports = {
       donationReminder: "66% du montant de votre don au profit d’Altertek peut être déduit de votre impôt sur le revenu.",
       ourMission: "Notre mission",
       ourMissionDesc: "Promouvoir le numérique responsable : une technologie plaçant le respect de l'humain et de la nature au centre de son développement.",
-      siteCommitment: "Ce site web vise à réduire son empreinte environnementale. L'ensemble du site et de la solution serveur est éco-resonsable"
+      siteCommitment: "Ce site web vise à réduire son empreinte environnementale. L'ensemble du site et la solution serveur sont éco-responsables"
     },
     languages: [{
       locale: "fr",
