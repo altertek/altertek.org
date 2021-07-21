@@ -8,8 +8,8 @@ module.exports = {
     highlight: {
       title: "May 21 - webinar: The use of digital technologies in the wake of climate change",
       desc: "Digital technology is also disrupting the climate, but how? And above all, what can we do about it? ",
-      link: "https://popschool.fr/2021/05/03/21-mai-nos-usages-numeriques-face-aux-enjeux-climatiques/",
-      button: "Subscribe to the webinar"
+      link: "https://video.altertek.org/videos/watch/b19818c3-083b-41c7-8cee-37c2f618b8ad",
+      button: "Watch the replay (french)"
     },
     news: "News",
     publications: "Publications",
@@ -97,8 +97,8 @@ module.exports = {
     highlight: {
       title: "21 mai - webinaire : Nos usages numériques face aux enjeux climatiques !",
       desc: "Le numérique aussi dérègle le climat, mais comment ? Et surtout, que pouvons-nous y faire ?",
-      link: "https://popschool.fr/2021/05/03/21-mai-nos-usages-numeriques-face-aux-enjeux-climatiques/",
-      button: "S'inscrire au webinaire"
+      link: "https://video.altertek.org/videos/watch/b19818c3-083b-41c7-8cee-37c2f618b8ad",
+      button: "Revoir la redifusion du webinaire"
     },
     news: "Nos actualités",
     showNews: "Toutes les actualités",
