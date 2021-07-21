@@ -1,7 +1,8 @@
 module.exports = {
   networks: {
     twitter: "https://twitter.com/altertek",
-    github: "https://github.com/altertek"
+    github: "https://github.com/altertek",
+    peertube: "https://video.altertek.org/video-channels/altertek.talk/videos"
   },
   en: {
     ourServices: "Our services",
