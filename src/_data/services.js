@@ -15,7 +15,7 @@ module.exports = {
         title: "Matrix",
         subtitle: "Messaging",
         button: "Create an account",
-        link: "https://matrix.altertek.org/"
+        link: "https://matrix.to/#/#altertek:altertek.org"
       },
       {
         img: "../../assets/images/services/peertube.webp",
@@ -43,7 +43,7 @@ module.exports = {
         title: "Matrix",
         subtitle: "Messagerie instantanée",
         button: "Créer un compte",
-        link: "https://matrix.altertek.org/"
+        link: "https://matrix.to/#/#altertek:altertek.org"
       },
       {
         img: "../../assets/images/services/peertube.webp",
