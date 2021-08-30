@@ -1,0 +1,7 @@
+# Redirect on the french language version if french is present in the browser header
+RewriteCond %{HTTP:Accept-Language} ^fr [NC]
+RewriteRule ^$ /fr/ [L,R=301]
+
+# Otherwise redirect on the english page by default
+RewriteRule ^$ /en/ [L,R=301]
+
