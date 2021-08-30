@@ -26,6 +26,8 @@ FRANCE
 See our [contact page](/{{ locale }}/contact/)
 
 **Hosting**  
+This website is developed and edited by Altertek  
+
 Altertek infrastructure is distributed between three european companies using renewable energy:  
 - Scaleway SAS  
 - Infomaniak Network SA  

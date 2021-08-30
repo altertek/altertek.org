@@ -25,6 +25,8 @@ FRANCE
 Voir notre [Page de contact](/{{ locale }}/contact/)
 
 **Hébergement**  
+Ce site web est développé et edité par Altertek  
+
 L'infrastructure d'Altertek est répartie sur ces deux hébergeurs européens qui se fournissent en énergie renouvelable:  
 - Scaleway SAS  
 - Infomaniak Network SA  
