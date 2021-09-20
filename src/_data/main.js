@@ -8,7 +8,7 @@ module.exports = {
     highlight: {
       title: "May 21 - webinar: The use of digital technologies in the wake of climate change",
       desc: "Digital technology is also disrupting the climate, but how? And above all, what can we do about it? ",
-      link: "https://video.altertek.org/videos/watch/b19818c3-083b-41c7-8cee-37c2f618b8ad",
+      link: "https://video.altertek.org/videos/watch/c5e3df6c-2fb8-4b16-8406-1c4a5378b166",
       button: "Watch the replay (french)"
     },
     news: "News",
@@ -107,7 +107,7 @@ module.exports = {
     highlight: {
       title: "21 mai - webinaire : Nos usages numériques face aux enjeux climatiques !",
       desc: "Le numérique aussi dérègle le climat, mais comment ? Et surtout, que pouvons-nous y faire ?",
-      link: "https://video.altertek.org/videos/watch/b19818c3-083b-41c7-8cee-37c2f618b8ad",
+      link: "https://video.altertek.org/videos/watch/c5e3df6c-2fb8-4b16-8406-1c4a5378b166",
       button: "Revoir la redifusion du webinaire"
     },
     news: "Nos actualités",
