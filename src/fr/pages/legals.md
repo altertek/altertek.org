@@ -25,10 +25,9 @@ FRANCE
 Voir notre [Page de contact](/{{ locale }}/contact/)
 
 **Hébergement**  
-L'infrastructure d'Altertek est répartie sur ces trois hébergeurs européens qui se fournissent en énergie renouvelable:  
-- France: Scaleway SAS (DC5 PAR2)  
-- Suisse: Infomaniak Network SA  
-- Allemagne: Hetzner Online GmbH  
+L'infrastructure d'Altertek est répartie sur ces deux hébergeurs européens qui se fournissent en énergie renouvelable:  
+- Scaleway SAS  
+- Infomaniak Network SA  
 
 
 Sauf mention contraire, les contenus publiés sous la license [Creative Commons BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
