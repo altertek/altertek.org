@@ -27,9 +27,8 @@ See our [contact page](/{{ locale }}/contact/)
 
 **Hosting**  
 Altertek infrastructure is distributed between three european companies using renewable energy:  
-- France: Scaleway SAS (DC5 PAR2)  
-- Switzerland: Infomaniak Network SA  
-- Germany: Hetzner Online GmbH  
+- Scaleway SAS  
+- Infomaniak Network SA  
 
 Except stated otherwise, all the content of the website is published under [Creative Commons BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
 
