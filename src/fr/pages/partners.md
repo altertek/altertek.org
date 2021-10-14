@@ -19,6 +19,8 @@ Dans cette page, notre définition de "sponsor" comprend toute aide financière,
 
 ## Nous soutenons
 - [World Cleanup day France](https://www.worldcleanupday.fr): Nous y assurons la gestion des services numériques
+- [Zero Waste France](https://www.zerowastefrance.org): Aide à la démocratisation de Nextcloud dans l'association
+- [Alternatiba](https://alternatiba.eu): Aide pour l'infrastructure pendant les camps climat
 
 ## Nous sommes sponsorisés par
 - [Updown](https://updown.io): Mise à disposition gratuite de [l'offre de monitoring](https://updown.io/#pricing)

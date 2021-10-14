@@ -19,6 +19,8 @@ On this page, our definition of "sponsorship" includes any material, financial, 
 
 ## We support
 - [World Cleanup day France](https://www.worldcleanupday.fr): We ensure the IT management
+- [Zero Waste France](https://www.zerowastefrance.org): Support for the democratization of Nextcloud in the association
+- [Alternatiba](https://alternatiba.eu): Maintain infrastructure during climate camps
 
 ## We are sponsored by
 - [Updown](https://updown.io): They offer us their [monitoring solution](https://updown.io/#pricing)
