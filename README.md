@@ -4,7 +4,7 @@
 This is the source code of altertek website hosted at [altertek.org](https://altertek.org). It was voluntarily designed to be minimalistic
 <div align="center">
 <a href="https://altertek.org">
-	<img src="screenshot-home.png" width="600">
+	<img src="screenshot-home.webp" width="600">
 </a>
 </div>
 
