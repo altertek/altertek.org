@@ -7,7 +7,7 @@ permalink: /{{ locale }}/{{ pageName }}/
 
 # {{ title }}
 
-Conçeption: Altertek
+Conception: Altertek
 Contenu sous Creative Commons BY-SA.
 
 Liste des projets open source utilisés pour ce site:
