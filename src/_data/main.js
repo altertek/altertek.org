@@ -162,11 +162,13 @@ module.exports = {
         {
           name: "L'April",
           img: "../../assets/images/references/april.webp",
+          desc: "Page d'accueil du site de l'association 'April'",
           link: "https://www.april.org/"
         },
         {
           name: "Les assembleurs",
           img: "../../assets/images/references/assembleurs.webp",
+          desc: "Page d'accueil du site des assembleurs",
           link: "https://les.assembleurs.co"
         }
       ]
@@ -177,26 +179,31 @@ module.exports = {
         {
           name: "Zero Waste France",
           img: "../../assets/images/references/zerowaste.webp",
+          desc: "Page d'accueil du site de l'association 'Zero Waste France'",
           link: "https://www.zerowastefrance.org"
         },
         {
           name: "World CleanUp Day – France",
           img: "../../assets/images/references/word-cleanup-day.webp",
+          desc: "Page d'accueil du site de l'association 'Alternatiba'",
           link: "https://www.worldcleanupday.fr"
         },
         {
           name: "Alternatiba",
           img: "../../assets/images/references/alternatiba.webp",
+          desc: "Page d'accueil du site de l'association 'Alternatiba'",
           link: "https://alternatiba.eu"
         },
         {
           name: "ANV COP21",
           img: "../../assets/images/references/anv-cop21.webp",
+          desc: "Page d'accueil du site de l'association 'ANV COP21'",
           link: "https://anv-cop21.org"
         },
         {
           name: "Cyber World CleanUp Day",
           img: "../../assets/images/references/cwud.webp",
+          desc: "Page d'accueil du site de l'association 'Cyber World CleanUp Day'",
           link: "https://cyberworldcleanupday.fr"
         }
       ]
