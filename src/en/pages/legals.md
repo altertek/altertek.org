@@ -53,7 +53,7 @@ Alterek attaches great importance to the security and integrity of your personal
 The association takes all necessary measures to guarantee the safety of users on its services, it undertakes to respond promptly to reports on this subject.  
 People with internal access to the infrastructure are only accredited members who have signed a privacy clause.  
 
-# Privacy  
+# Personnal data
 Altertek does not transfer your personal data without your explicit consent to third parties.
 
 In accordance with the GDPR, Altertek guarantees the user a right of opposition, access and rectification on the personal data concerning him.  
