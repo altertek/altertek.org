@@ -63,6 +63,8 @@ Altertek ne transfère pas vos données personnelles sans votre consentement exp
 Conformément au RPGD, Altertek garantit à l’utilisateur un droit d’opposition, d’accès et de rectification sur les données nominatives le concernant.  
 L’utilisateur a la possibilité d’exercer ce droit en utilisant la page de contact mise à sa disposition.  
 
+De plus, Altertek s'engage à ne s’arroger aucun droit de propriété des contenus, données et métadonnées produits par les hébergées ou les utilisateurs et utilisatrices.
+
 # Réquisitions judiciares  
 Altertek respecte la loi dans les pays dans elle opère et gère son infrastructure.  
 L'association ne répond qu'aux réquisitions judiciares en bonne et due forme et à aucun autre intérêt.  
