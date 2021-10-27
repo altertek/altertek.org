@@ -14,6 +14,7 @@ module.exports = {
     contact: "Contact",
     credits: "Credits",
     legals: "Legals",
+    terms: "Terms of use",
     makeDonation: "Donate",
     modify: "Modify this website",
     footer: {
@@ -42,6 +43,7 @@ module.exports = {
     contact: "Contact",
     credits: "Crédits",
     legals: "Mentions légales",
+    terms: "CGU",
     makeDonation: "Faire un don",
     modify: "Modifier ce site Web ",
     footer: {
