@@ -59,7 +59,7 @@ Altertek does not transfer your personal data without your explicit consent to t
 In accordance with the GDPR, Altertek guarantees the user a right of opposition, access and rectification on the personal data concerning him.  
 The user has the opportunity to exercise this right by using the contact page provided to him.  
 
-In addition, Altertek undertakes not to assume any right of ownership of the content, data and metadata produced by the hosts or the users.
+Altertek will not claim any ownership rights to content and data produced by the users of the services.
 
 # Judicial inquiries  
 Altertek respects the law in the countries in which it operates and manages its infrastructure.  
