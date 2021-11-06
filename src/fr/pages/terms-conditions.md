@@ -50,9 +50,8 @@ Tout est hebergé sur des serveurs présents sur le continent; y compris pour no
 Le site Altertek.org n'utilise aucun cookie  
 Il est possible que les services hébergés par Altertek utilisent des cookies techniques et/ou de connexion, merci de consulter leur conditions d'utilisation.  
 
-## Prestataires
-Voici la liste de nos prestataires:
-- [Helloasso](https://www.helloasso.com/) : service permettant à des associations de recevoir des dons et des cotisations
+## Prestataires  
+Merci de consulter la liste des prestataires sur [cette page de documentation](https://docs.altertek.org/#/content/subprocessors).  
 
 ## Publicité  
 Altertek n'intègre aucune publicité externe et n'a aucune intention d'en mettre en place à l'avenir.  

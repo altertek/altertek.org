@@ -47,9 +47,8 @@ Everything is hosted on servers on the mainland; including our service providers
 Altertek.org does not use any cookies  
 It is possible that the services hosted by Altertek use technical and/or login cookies, please consult their terms of use.  
 
-## Third parties
-List of external entities used by Altertek:
-- [Helloasso](https://www.helloasso.com/) : Service allowing associations to receive donations and contributions
+## Third parties  
+Please could our subprocessors in [this documentation page](https://docs.altertek.org/#/content/subprocessors)  
 
 ## Advertising  
 Altertek does not include any external advertising and has no intention of implementing any such advertising in the future.  
