@@ -14,12 +14,15 @@ Numéro SIREN: 883116378
 Numéro SIRET:  88311637800018  
 Code APE: 5814Z  
 
-## Siège social
+### Siège social
 Altertek  
 A42  
 13, Avenue du Président Kennedy  
 59000 Lille  
 FRANCE  
+
+### Directeurs de la publication
+Alexandre Kalatzis et Samuel Joset
 
 ## Contact
 Voir notre [Page de contact](/{{ locale }}/contact/).

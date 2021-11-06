@@ -14,12 +14,15 @@ SIREN Registration number: 883116378
 SIRET Registration number:  88311637800018  
 APE code: 5814Z  
 
-## Headquarters
+### Headquarters
 Altertek  
 A42  
 13, Avenue du Président Kennedy  
 59000 Lille  
 FRANCE  
+
+### Publication management directors
+Alexandre Kalatzis and Samuel Joset
 
 ## Contact  
 See our [contact page](/{{ locale }}/contact/)
