@@ -25,6 +25,9 @@ et sous réserve d'éventuelles pannes et interventions de maintenance nécessai
 ## Modification des conditions d’utilisation  
 L’Association se réserve la possibilité de modifier, à tout moment et sans préavis, les présentes conditions d’utilisation afin de les adapter aux évolutions des services et/ou de leur exploitation.  
 
+## Chartes et Manifestes  
+Altertek adhère sans restriction aux valeurs du collectif CHATONS telles que stipulées dans [le manifeste](https://chatons.org/manifeste) et [la charte](https://chatons.org/charte).  
+
 ## Sécurité  
 Alterek accorde une grande importance à la sécurité et à l’intégrité de vos données personnelles.  
 L'association prend tous les mesures nécessaires pour garantir la sécurité des utilisateurs sur ses services, elle s'engage à répondre rapidement aux signalements relatifs à ce sujet.  
@@ -61,6 +64,3 @@ Altertek mesure l'audience de ses services grâce à Matomo.
 L'instance est sur un serveur qui est géré par Altertek sans partage à des tiers.  
 Les adresses IP sont anonymisées, aucune donnée personelle n'est collectée.  
 Vous pourrez consulter les statistiques publiquement prochainement.  
-
-
-Altertek adhère sans restriction aux valeurs du collectif Chaton telles que stipulées dans [le manifeste et la charte](https://chatons.org/fr/charte-et-manifeste).
