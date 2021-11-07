@@ -21,6 +21,9 @@ The association shall endeavor to allow access to its services 24 hours a day, 7
 ## Modifying Terms of Use  
 The Association reserves the right to modify, at any time and without prior notice, these Terms of Use in order to adapt them to the changes of the services and/or their operation.  
 
+## Charters and Manifestos  
+Altertek fully adheres to the values of the CHATONS collective as stipulated in [the manifesto](https://chatons.org/en/manifeste) and [the charter](https://chatons.org/en/charte).  
+
 ## Security  
 Alterek attaches great importance to the security and integrity of your personal data.  
 The association takes all necessary measures to guarantee the safety of users on its services, it undertakes to respond promptly to reports on this subject.  
@@ -58,5 +61,3 @@ Altertek measures the audience of the web services with Matomo.
 The instance is on a server that is managed by Altertek without sharing data to third parties.  
 IP addresses are anonymized, no personal data is collected.  
 You will be able to view the statistics publicly in the near future.  
-
-Altertek fully adheres to the values of the Chatons collective as stipulated in the  [manifesto and the charter](https://chatons.org/en/charter-and-manifesto).
