@@ -48,7 +48,7 @@ Altertek.org does not use any cookies
 It is possible that the services hosted by Altertek use technical and/or login cookies, please consult their terms of use.  
 
 ## Third parties  
-Please could our subprocessors in [this documentation page](https://docs.altertek.org/#/content/subprocessors)  
+Our subprocessors are listed in [this documentation page](https://docs.altertek.org/#/content/subprocessors)  
 
 ## Advertising  
 Altertek does not include any external advertising and has no intention of implementing any such advertising in the future.  
