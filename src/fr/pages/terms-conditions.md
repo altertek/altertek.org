@@ -51,7 +51,7 @@ Le site Altertek.org n'utilise aucun cookie
 Il est possible que les services hébergés par Altertek utilisent des cookies techniques et/ou de connexion, merci de consulter leur conditions d'utilisation.  
 
 ## Prestataires  
-Merci de consulter la liste des prestataires sur [cette page de documentation](https://docs.altertek.org/#/content/subprocessors).  
+Vous pouvez consulter la liste des prestataires sur [cette page de documentation](https://docs.altertek.org/#/content/subprocessors).  
 
 ## Publicité  
 Altertek n'intègre aucune publicité externe et n'a aucune intention d'en mettre en place à l'avenir.  
