@@ -8,6 +8,8 @@ permalink: /{{ locale }}/{{ pageName }}/
 # {{ title }}
 
 Do you have any suggestions or you wish to contact us?
-We will be happy to answer your questions, reach us on the following address:
+We will be happy to answer your questions.
 
-By email: <contact@altertek.org>
+You can contact use using the following address: <contact@altertek.org>
+
+We can also organize physical meetings in Lille or Paris.
