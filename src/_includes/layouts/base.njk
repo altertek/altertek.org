@@ -13,6 +13,7 @@ title: Altertek
     <title>{{ title }}</title>
     <link rel="icon" type="image/png" href="/assets/images/logo-32x32.png">
     <link href="/assets/css/all.min.css" rel="stylesheet" media="all">
+    <script type="text/javascript" src="/assets/js/dropdown.js" ></script>
     <style>
 .fade:not(.show) {
   opacity: 0;
@@ -23,21 +24,7 @@ title: Altertek
 }
 
     </style>
-<script>
 
-
-function dropdown() {
- const elem = document.getElementById("navbarCollapse").className;
- if (elem.includes('show')) {
-  document.getElementById("toggler").className = "navbar-toggler collapsed";
-  document.getElementById("navbarCollapse").className = "navbar-collapse collapse";
- } else {
-  document.getElementById("toggler").className = "navbar-toggler";
-  document.getElementById("navbarCollapse").className = "navbar-collapse collapse show";
- }
-
-}
-</script>
   </head>
   <body>
     {% set site = site %}
@@ -47,8 +34,6 @@ function dropdown() {
   <main >
     {{ content | safe }}
   </main>
-
-
 
     {% include "partials/footer.njk" %}
   </body>
