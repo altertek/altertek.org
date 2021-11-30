@@ -4,10 +4,8 @@
   "description": "altertek website",
   "main": "index.js",
   "scripts": {
-    "build": "npx @11ty/eleventy && npm run minify:html && npm run minify:css",
-    "serve": "npx @11ty/eleventy --serve ",
-    "minify:css": "npx purifycss dist/assets/css/bootstrap.min.css dist/assets/css/fork-awesome/css/fork-awesome.min.css dist/assets/css/custom.css  dist/fr/**/*.html dist/fr/*.html -w .collapsing .collapse .fade --min --out dist/assets/css/all.min.css",
-    "minify:html": "mv dist/assets assets && npx html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --use-short-doctype --minify-css true --minify-js true  --input-dir dist --output-dir dist && mv assets dist/assets"
+    "build": "npx gulp",
+    "serve": "npx @11ty/eleventy --serve "
   },
   "repository": {
     "type": "git",
@@ -20,7 +18,15 @@
   },
   "homepage": "https://github.com/altertek/altertek.org#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy": "^0.11.1",
+    "del": "^6.0.0",
+    "eleventy": "^1.0.6",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-purgecss": "^4.0.3",
+    "gulp-rev-all": "^3.0.0",
     "html-minifier": "^4.0.0"
   },
   "dependencies": {

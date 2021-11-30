@@ -13,7 +13,8 @@ This is the source code of altertek website hosted at [altertek.org](https://alt
 ```
 git clone git@github.com:altertek/altertek.org.git
 cd altertek.org
-npm install
+npm ci
+npm run build
 npm run serve
 ```
 
