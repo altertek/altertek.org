@@ -24,7 +24,7 @@ jobs:
       if: ${{ env.DEPLOY_SSH != '' }}
 
     - name: Install npm dependencies
-      run: npm install
+      run: npm ci
       if: ${{ env.DEPLOY_SSH != '' }}
 
     - name: Run build task
