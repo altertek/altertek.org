@@ -1,11 +1,8 @@
 const fs = require("fs");
 const { DateTime } = require('luxon');
-const htmlmin = require("html-minifier");
 
 
 module.exports = eleventyConfig => {
-  // Copy our static assets to the output folder
-  eleventyConfig.addPassthroughCopy('src/assets');
 
   // Display 404 page in BrowserSnyc
   eleventyConfig.setBrowserSyncConfig({
@@ -43,27 +40,13 @@ module.exports = eleventyConfig => {
        return array.slice(0, n);
      });
 
-     // eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
-     //   // Eleventy 1.0+: use this.inputPath and this.outputPath instead
-     //   if( outputPath && outputPath.endsWith(".html") ) {
-     //     let minified = htmlmin.minify(content, {
-     //       useShortDoctype: true,
-     //       removeComments: true,
-     //       collapseWhitespace: true
-     //     });
-     //     return minified;
-     //   }
-     //
-     //   return content;
-     // });
-
   // Returning something from the configuration function is optional
   return {
     dir: {
       input: "src",
       output: "dist",
     },
-    templateFormats: ["css", "njk", "md", "txt", "html"],
+    templateFormats: ["njk", "md", "txt", "html"],
     // htmlTemplateEngine: "njk",
     // markdownTemplateEngine: "njk",
     passthroughFileCopy: true

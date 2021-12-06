@@ -11,8 +11,19 @@ const clean = () => {
   return del(['dist']);
 }
 
+const copyAssets = () => {
+    return src('src/assets/{images,js,fonts}/**')
+        .pipe(dest('dist/assets'));
+}
+
+// Base files (robots.txt, htaccess, etc...)
+const copyBaseFiles = () => {
+    return src('src/base/**/*', { dot: true } )
+        .pipe(dest('dist'));
+}
+
 const build = () => {
-  return cp.spawn("npx", ["@11ty/eleventy", "--quiet"], { stdio: "inherit" });
+  return cp.spawn("npx", ["@11ty/eleventy"], { stdio: "inherit" });
 }
 
 const minifyHTML = () => {
@@ -31,7 +42,7 @@ const minifyHTML = () => {
 }
 
 const purgeCSS = () => {
-  return src('dist/**/*.css')
+  return src('src/assets/css/*.css')
   .pipe(purgecss({
     content: ['dist/**/*.html']
   }))
@@ -56,4 +67,4 @@ const revision = () => {
 }
 
 exports.build = build;
-exports.default = series(clean, build, minifyHTML, purgeCSS, minifyCSS, revision);
+exports.default = series(clean, copyAssets, copyBaseFiles, build, minifyHTML, purgeCSS, minifyCSS, revision);
