@@ -14,6 +14,7 @@ Dans cette page, notre définition de "sponsor" comprend toute aide financière,
 <hr/>
 
 ## Nous sommes membre de
+- [Le collectif CHATONS](https://www.chatons.org/)
 - [L'April](https://www.april.org/)
 - [Les assembleurs](https://les.assembleurs.co/)
 
