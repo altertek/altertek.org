@@ -61,6 +61,11 @@ module.exports = {
       title: "We are member of",
       refs: [
         {
+          name: "CHATONS",
+          img: "../../assets/images/references/chatons.svg",
+          link: "https://www.chatons.org/"
+        },
+        {
           name: "L'April",
           img: "../../assets/images/references/april.webp",
           link: "https://www.april.org/"
@@ -159,6 +164,11 @@ module.exports = {
     memberOf: {
       title: "Nous sommes membre de",
       refs: [
+        {
+          name: "CHATONS",
+          img: "../../assets/images/references/chatons.svg",
+          link: "https://www.chatons.org/"
+        },
         {
           name: "L'April",
           img: "../../assets/images/references/april.webp",
