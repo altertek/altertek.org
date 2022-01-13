@@ -69,11 +69,6 @@ module.exports = {
           name: "L'April",
           img: "../../assets/images/references/april.webp",
           link: "https://www.april.org/"
-        },
-        {
-          name: "Les assembleurs",
-          img: "../../assets/images/references/assembleurs.webp",
-          link: "https://les.assembleurs.co"
         }
       ]
     },
@@ -173,11 +168,6 @@ module.exports = {
           name: "L'April",
           img: "../../assets/images/references/april.webp",
           link: "https://www.april.org/"
-        },
-        {
-          name: "Les assembleurs",
-          img: "../../assets/images/references/assembleurs.webp",
-          link: "https://les.assembleurs.co"
         }
       ]
     },
