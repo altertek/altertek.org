@@ -1,4 +1,6 @@
 const { src, dest, series } = require('gulp');
+const luxon = require('luxon');
+const replace = require('gulp-replace');
 const purgecss = require('gulp-purgecss')
 const htmlmin = require('gulp-htmlmin');
 const cleanCSS = require('gulp-clean-css');
@@ -56,6 +58,12 @@ const minifyCSS = () => {
     .pipe(dest('dist/assets/css'));
 }
 
+const securityTxt = () => {
+  return src('dist/.well-known/security.txt')
+        .pipe(replace("@date",  luxon.DateTime.now().plus({ years: 2 }).startOf("day").toISO()))
+        .pipe(dest('dist/.well-known/'));
+}
+
 const revision = () => {
 	return src('dist/**')
     .pipe(revAll.revision({ dontRenameFile: [/^\/logo-32x32.png$/g, ".html", ".json", ".txt"] }))
@@ -67,4 +75,4 @@ const revision = () => {
 }
 
 exports.build = build;
-exports.default = series(clean, copyAssets, copyBaseFiles, build, minifyHTML, purgeCSS, minifyCSS, revision);
+exports.default = series(clean, copyAssets, copyBaseFiles, build, minifyHTML, purgeCSS, minifyCSS, securityTxt, revision);
