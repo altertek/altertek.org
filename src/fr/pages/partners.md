@@ -24,5 +24,8 @@ Dans cette page, notre définition de "sponsor" comprend toute aide financière,
 - [Alternatiba](https://alternatiba.eu): Aide sur l'infrastructure pendant les camps climat
 
 ## Nous sommes sponsorisés par
+[<img src="../../assets/images/references/hexatech.svg" height="100">](https://hexatech.eu)
+Principal Sponsor  
+  
 - [Updown](https://updown.io): Mise à disposition gratuite de [l'offre de monitoring](https://updown.io/#pricing)
 - [GitHub](https://github.com): Nous utilisons un [compte à but non lucratif GitHub](https://github.com/nonprofit) pour notre compte d'organisation GitHub
