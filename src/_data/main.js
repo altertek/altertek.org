@@ -136,14 +136,14 @@ module.exports = {
         {
           icon: "book",
           title: "Notre volonté",
-          subtitle: "Placer l'humain et l'environnement au centre du progres technologique.",
+          subtitle: "Placer l'humain et l'environnement au centre du progrès technologique.",
           button: "Connaitre nos motivations",
           link: "about/"
         },
         {
           icon: "server",
           title: "Nos services",
-          subtitle: "Des outils libres de droits, respectueux de la vie privée et hébergés sur des serveurs responsable.",
+          subtitle: "Des outils libres, respectueux de la vie privée et hébergés sur des serveurs éco-responsables.",
           button: "Découvrir nos services",
           link: "services/"
         },
