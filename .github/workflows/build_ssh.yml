@@ -1,9 +1,10 @@
-name: SSH NODE CI
+name: 'Build and deploy'
 
 on:
   push:
-    branches:
-      - master
+    branches: [master]
+  pull_request:
+    branches: [master]
 
 jobs:
   build:
@@ -12,25 +13,30 @@ jobs:
     steps:
 
     - uses: actions/checkout@v2
-      if: ${{ env.DEPLOY_SSH != '' }}
 
     - name: Install Node.js
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v2
       with:
         node-version: 'lts/*'
-      if: ${{ env.DEPLOY_SSH != '' }}
+
+    - name: 'Cache Node dependencies'
+      uses: 'actions/cache@v2'
+      with:
+        path: '~/.npm'
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
 
     - name: Install npm dependencies
       run: npm ci
-      if: ${{ env.DEPLOY_SSH != '' }}
 
     - name: Run build task
       run: npm run build --if-present
-      if: ${{ env.DEPLOY_SSH != '' }}
 
     - name: Deploy to Server
       uses: easingthemes/ssh-deploy@v2.1.5
-      if: ${{ env.DEPLOY_SSH != '' }}
+      if: |
+        github.ref == 'refs/heads/master' && github.event.repository.fork == false && env.DEPLOY_SSH != ''
       env:
           SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
           ARGS: "-rltgoDzvO --delete"
