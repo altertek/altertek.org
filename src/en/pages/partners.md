@@ -24,5 +24,8 @@ On this page, our definition of "sponsorship" includes any material, financial, 
 - [Alternatiba](https://alternatiba.eu): Help on the infrastructure during climate camps
 
 ## We are sponsored by
+[<img src="../../assets/images/references/hexatech.svg" height="100">](https://hexatech.eu)
+Primary sponsor
+  
 - [Updown](https://updown.io): They offer us their [monitoring solution](https://updown.io/#pricing)
 - [GitHub](https://github.com): We use a [GitHub nonprofit account](https://github.com/nonprofit) for our GitHub organization account
