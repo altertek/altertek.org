@@ -20,6 +20,9 @@ In the Resilience program, Altertek wants to contribute to the plurality and the
 - 1 [OONI Probe](https://ooni.org/)
 - 2 [RIPE ATLAS Probes](https://atlas.ripe.net/): [Link](https://atlas.ripe.net/probes/1001543/#tab-general) - Contact us if you need credits for your project
 
+## Abuse
+Were are partipating in projecthoneypot.org and abuseipdb.net
+
 ## Upcoming services  
 
 - HTTP mirror
