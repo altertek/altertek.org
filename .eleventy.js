@@ -46,9 +46,9 @@ module.exports = eleventyConfig => {
       input: "src",
       output: "dist",
     },
-    templateFormats: ["njk", "md", "txt", "html"],
+    templateFormats: ["njk", "md"],
     // htmlTemplateEngine: "njk",
     // markdownTemplateEngine: "njk",
-    passthroughFileCopy: true
+    passthroughFileCopy: false
   };
 };
