@@ -19,9 +19,10 @@ In the Resilience program, Altertek wants to contribute to the plurality and the
 
 - 1 [OONI Probe](https://ooni.org/)
 - 2 [RIPE ATLAS Probes](https://atlas.ripe.net/): [Link](https://atlas.ripe.net/probes/1001543/#tab-general) - Contact us if you need credits for your project
-
+- 1 [TOR Bridge](https://bridges.torproject.org/bridges): [Artemis](https://metrics.torproject.org/rs.html#details/3CFC4EE161EAEEC566F54B09770A225A12629D98)
+- 1 [Snowflake Proxy](https://snowflake.torproject.org/)
+ 
 ## Upcoming services  
 
 - HTTP mirror
 - NTP.org participation
-- A Tor node
