@@ -1,0 +1,19 @@
+{
+    "@context" : "http://schema.org",
+    "version": "0.0.1",
+    "@type" : "Association",
+    "organizationType" : "Non-profit",
+    "name" : "Altertek",
+    "tagLine" : "Ethics in Technology",
+    "homeUrl" : "https://altertek.org",
+    "logo" : "https://www.altertek.org/assets/images/logo-200x200.png",
+    "description": "libre service provider",
+    "communicationLanguages": ["en", "fr"],
+    "contactUrl": "https://www.altertek.org/en/contact/",
+    "privacyPolicyUrl" : "https://www.altertek.org/en/terms-conditions/",
+    "termsOfServiceUrl" : "https://www.altertek.org/en/terms-conditions/",
+    "isServiceProvider" : true,
+    "foundingDate": "2019",
+    "dateCreated": "2019-12-19T00:00:00Z",
+    "dateModified": "2019-12-19T00:00:00Z"
+}
