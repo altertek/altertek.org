@@ -10,14 +10,6 @@ module.exports = {
         link: "https://meet.altertek.org/"
       },
       {
-        img: "../../assets/images/services/matrix.png",
-        icon: "comments",
-        title: "Matrix",
-        subtitle: "Messaging",
-        button: "Create an account",
-        link: "https://matrix.to/#/#altertek:altertek.org"
-      },
-      {
         img: "../../assets/images/services/peertube.webp",
         icon: "play",
         title: "Video",
@@ -36,14 +28,6 @@ module.exports = {
         subtitle: "Conférence vidéo",
         button: "Créer un salon",
         link: "https://meet.altertek.org/"
-      },
-      {
-        icon: "comments",
-        img: "../../assets/images/services/matrix.png",
-        title: "Matrix",
-        subtitle: "Messagerie instantanée",
-        button: "Créer un compte",
-        link: "https://matrix.to/#/#altertek:altertek.org"
       },
       {
         img: "../../assets/images/services/peertube.webp",
