@@ -27,6 +27,10 @@ L’Association se réserve la possibilité de modifier, à tout moment et sans 
 
 ## Chartes et Manifestes  
 Altertek adhère sans restriction aux valeurs du collectif CHATONS telles que stipulées dans [le manifeste](https://chatons.org/manifeste) et [la charte](https://chatons.org/charte).  
+Altertek soutien le [Contrat pour the web](https://contractfortheweb.org) de la Web foundation.  
+Altertek a aussi signé ces manifestes:  
+- [Sustainable Web Manifesto](https://www.sustainablewebmanifesto.com/)  
+- [Web0 Manifesto](https://web0.small-web.org/)  
 
 ## Sécurité  
 Alterek accorde une grande importance à la sécurité et à l’intégrité de vos données personnelles.  
