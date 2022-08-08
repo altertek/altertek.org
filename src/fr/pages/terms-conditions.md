@@ -64,7 +64,54 @@ Vous pouvez consulter la liste des prestataires sur [cette page de documentation
 Altertek n'intègre aucune publicité externe et n'a aucune intention d'en mettre en place à l'avenir.  
 
 ## Mesure d'audience  
-Altertek mesure l'audience de ses services grâce à Matomo.  
+Altertek mesure l'audience de ses services grâce à une instance auto-hébergée de Plausible.  
+
+- Aucune donnée personelle n'est collectée.
+- Toutes les données sont uniquement sous forme d'agrégats.
+- Les adresses IP ne sont pas stockées.
+- Aucun cookie ou autre identifiant persistant n'est stocké dans le navigateur.
+- Aucune information n'est récupérée dans le cadre de tendances de comportement.
+- Aucune analyse personelle ou comportementale n'est effectée.
+
 L'instance est sur un serveur qui est géré par Altertek sans partage à des tiers.  
-Les adresses IP sont anonymisées, aucune donnée personelle n'est collectée.  
-Vous pourrez consulter les statistiques publiquement prochainement.  
+
+Vous pourrez consulter les statistiques publiquement prochainement.
+
+### S'exclure des statistiques
+
+Cliquez sur le lien ci-dessous pour vous retirer des statistiques de ce site.
+
+<div>Actuellement vous <span id="plausible_not">n'excluez pas</span><span id="plausible_yes">excluez</span> vos visites.</div>
+<a id="plausible_button" href="javascript:toggleExclusion()">Exclure mes visites</a>
+</div>
+
+<script>
+    window.addEventListener('load', function (e) {
+      var exclusionState = window.localStorage.plausible_ignore == "true"
+      if (exclusionState) {
+         document.getElementById("plausible_not").style.display = "none"
+         document.getElementById("plausible_yes").style.display = "inline"
+         document.getElementById("plausible_button").innerHTML = "Arreter d'exclure mes visites"
+      } else {
+        document.getElementById("plausible_yes").style.display = "none"
+        document.getElementById("plausible_not").style.display = "inline"
+        document.getElementById("plausible_button").innerHTML = 'Exclure mes visites'
+      }
+    });
+
+    function toggleExclusion(e) {
+	  var exclusionState = window.localStorage.plausible_ignore == "true"
+
+      if (exclusionState) {
+         delete window.localStorage.plausible_ignore
+         document.getElementById("plausible_yes").style.display = "none"
+         document.getElementById("plausible_not").style.display = "inline"
+         document.getElementById("plausible_button").innerHTML = 'Exclure mes visites'
+      } else {
+        window.localStorage.plausible_ignore = "true"
+        document.getElementById("plausible_not").style.display = "none"
+        document.getElementById("plausible_yes").style.display = "inline"
+        document.getElementById("plausible_button").innerHTML = "Arreter d'exclure mes visites"
+      }
+    }
+</script>
