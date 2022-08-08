@@ -61,7 +61,53 @@ Our subprocessors are listed in [this documentation page](https://docs.altertek.
 Altertek does not include any external advertising and has no intention of implementing any such advertising in the future.  
 
 ## Metrics  
-Altertek measures the audience of the web services with Matomo.  
+Altertek measures the audience of the web services with a self-hosted version of Plausible.   
+- No personal information is collected.
+- All data is in aggregate only.
+- IP addresses are not stored.
+- No cookies and other persistent identifiers are stored in the browser.
+- No information is mined and harvested for personal and behavioral trends.
+
 The instance is on a server that is managed by Altertek without sharing data to third parties.  
-IP addresses are anonymized, no personal data is collected.  
-You will be able to view the statistics publicly in the near future.  
+
+You will be able to view the statistics publicly in the near future.
+
+### Opt-out of the statistics
+
+Click the link below to toggle your exclusion in analytics for this site.
+
+<div>You currently <span id="plausible_not">are not</span><span id="plausible_yes">are</span>
+excluding your visits.</div>
+<a id="plausible_button" href="javascript:toggleExclusion()">Exclude my visits</a>
+</div>
+
+<script>
+    window.addEventListener('load', function (e) {
+      var exclusionState = window.localStorage.plausible_ignore == "true"
+      if (exclusionState) {
+         document.getElementById("plausible_not").style.display = "none"
+         document.getElementById("plausible_yes").style.display = "inline"
+         document.getElementById("plausible_button").innerHTML = "Stop excluding my visits"
+      } else {
+        document.getElementById("plausible_yes").style.display = "none"
+        document.getElementById("plausible_not").style.display = "inline"
+        document.getElementById("plausible_button").innerHTML = 'Exclude my visits'
+      }
+    });
+
+    function toggleExclusion(e) {
+      var exclusionState = window.localStorage.plausible_ignore == "true"
+
+      if (exclusionState) {
+         delete window.localStorage.plausible_ignore
+         document.getElementById("plausible_yes").style.display = "none"
+         document.getElementById("plausible_not").style.display = "inline"
+         document.getElementById("plausible_button").innerHTML = 'Exclude my visits'
+      } else {
+        window.localStorage.plausible_ignore = "true"
+        document.getElementById("plausible_not").style.display = "none"
+        document.getElementById("plausible_yes").style.display = "inline"
+        document.getElementById("plausible_button").innerHTML = "Stop excluding my visits"
+      }
+    }
+</script>
