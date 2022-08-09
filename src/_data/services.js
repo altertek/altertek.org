@@ -16,6 +16,13 @@ module.exports = {
         subtitle: "Video-sharing",
         button: "Browse the videos",
         link: "https://video.altertek.org"
+      },
+      {
+        icon: "wifi",
+        title: "WiFi QR",
+        subtitle: "WiFi credential sharing",
+        button: "Create a QR Code",
+        link: "https://wifiqr.altertek.org"
       }]
     }
   },
@@ -36,6 +43,13 @@ module.exports = {
         subtitle: "Hébergement de vidéos",
         button: "Parcourir les vidéos",
         link: "https://video.altertek.org"
+      },
+      {
+        icon: "wifi",
+        title: "WiFi QR",
+        subtitle: "Partage d'identifiants WiFi",
+        button: "Créer un QR Code",
+        link: "https://wifiqr.altertek.org"
       }]
     }
   }

@@ -4,8 +4,17 @@
   {% for item in items %}
   <div class="col mb-3">
     <div class="card">
+      {% if item.icon %}
+
+        <span class="d-inline-block align-top text-center" style="color: #191a23; height:200px; font-size:10em;">
+          <i class="fa fa-{{ item.icon }}"></i>
+        </span>
+      {% endif %}
+      {% if item.img %}
         <img src="{{ item.img }}" height="200" class="d-inline-block align-top" alt="" loading="lazy">
-      <div class="card-body">
+      {% endif %}
+
+      <div class="card-body text-center">
         <h4 class="card-title">{{ item.title }}</h4>
         <p class="card-text">{{ item.subtitle }}</p>
         <p><a class="btn btn-lg btn-lg btn-altertek" href="{{ item.link }}" role="button">{{ item.button }}</a></p>
