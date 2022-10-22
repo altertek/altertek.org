@@ -7,7 +7,7 @@ permalink: /{{ locale }}/{{ pageName }}/
 
 # {{ title }}
 
-Altertek is a non-profit organisation under the French law of Assocations (1901)  
+Altertek is a non-profit organisation under the 1901 French law of Associations    
 
 ## General information
 SIREN Registration number: 883116378  
@@ -30,7 +30,7 @@ See our [contact page](/{{ locale }}/contact/)
 ## Hosting  
 This website is developed and edited by Altertek  
 
-Altertek infrastructure is distributed between three european companies using renewable energy:  
+Altertek infrastructure is distributed between two european companies using renewable energy:  
 - Scaleway SAS  
 - Infomaniak Network SA  
 
