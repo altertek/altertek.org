@@ -96,9 +96,9 @@ module.exports = {
           link: "https://alternatiba.eu"
         },
         {
-          name: "Cyber World CleanUp Day",
-          img: "../../assets/images/references/cwud.webp",
-          link: "https://cyberworldcleanupday.fr"
+          name: "Digital Cleanup Day",
+          img: "../../assets/images/references/dcd.webp",
+          link: "https://digital-cleanup-day.fr/"
         }
       ]
     }
@@ -196,7 +196,7 @@ module.exports = {
         },
         {
           name: "Cyber World CleanUp Day",
-          img: "../../assets/images/references/cwud.webp",
+          img: "../../assets/images/references/dcd.webp",
           link: "https://cyberworldcleanupday.fr"
         }
       ]
