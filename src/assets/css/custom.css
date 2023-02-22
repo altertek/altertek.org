@@ -207,8 +207,14 @@ hr {
   background-color: #90caf9;
 }
 
-.footer-logo {
-    height: 5rem;
+.logo {
+    height: 2rem;
+}
+
+.hr {
+    height: 1px;
+    border-width: 0;
+    margin: 1em;
 }
 
 .row-highlight {
