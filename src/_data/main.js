@@ -63,12 +63,12 @@ module.exports = {
         {
           name: "CHATONS",
           img: "../../assets/images/references/chatons.svg",
-          link: "https://www.chatons.org/"
+          link: "https://www.chatons.org/en"
         },
         {
           name: "L'April",
           img: "../../assets/images/references/april.webp",
-          link: "https://www.april.org/"
+          link: "https://www.april.org/en"
         }
       ]
     },
@@ -78,7 +78,7 @@ module.exports = {
         {
           name: "Zero Waste France",
           img: "../../assets/images/references/zerowaste.webp",
-          link: "https://www.zerowastefrance.org"
+          link: "https://www.zerowastefrance.org/en/"
         },
         {
           name: "World CleanUp Day – France",
