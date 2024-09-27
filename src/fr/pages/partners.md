@@ -28,5 +28,3 @@ Principal Contributeur
   
 - [Updown](https://updown.io): Mise à disposition gratuite de [l'offre de monitoring](https://updown.io/#pricing)
 - [Tailscale](https://tailscale.com): Nous avons à disposition un compte "Open source" pour la connectivité entre serveurs et pour l'accès sécurisé à distance
-- [GitHub](https://github.com): Nous utilisons un [compte à but non lucratif GitHub](https://github.com/nonprofit) pour notre compte d'organisation GitHub
-- [GitLab](https://gitlab.com): Nous bénéfitions du programme [GitLab for Open Source](https://about.gitlab.com/solutions/open-source/)
