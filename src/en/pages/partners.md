@@ -28,5 +28,3 @@ Primary contributor
   
 - [Updown](https://updown.io): They offer us their [monitoring solution](https://updown.io/#pricing)
 - [Tailscale](https://tailscale.com): We have access to the Open source plan for server-to-server connectivity and secure remote access
-- [GitHub](https://github.com): We use a [GitHub nonprofit account](https://github.com/nonprofit) for our GitHub organization account
-- [GitLab](https://gitlab.com): We are beneficiaries from the [GitLab for Open Source Program](https://about.gitlab.com/solutions/open-source/)

@@ -18,9 +18,9 @@ In the Resilience program, Altertek wants to contribute to the plurality and the
 ## We are currently hosting the following tools/services:  
 
 - 1 [TOR Bridge](https://bridges.torproject.org/bridges): [Artemis](https://metrics.torproject.org/rs.html#details/3CFC4EE161EAEEC566F54B09770A225A12629D98)  
-- 1 [Snowflake Proxy](https://snowflake.torproject.org/)  
-- 1 [OONI Probe](https://ooni.org/) : [Source](https://github.com/altertek/docker-ooni-probe)  
-- 2 [RIPE ATLAS Probes](https://atlas.ripe.net/): [CH1](https://atlas.ripe.net/probes/1003795/) [GR1](https://atlas.ripe.net/probes/12474/) - Contact us if you need credits for your project  
-- 1 [Globalping](https://github.com/jsdelivr/globalping) probe  
+- 5 [Snowflake Proxies](https://snowflake.torproject.org/)  
+- 5 [OONI Probe](https://ooni.org/) : [Source](https://github.com/altertek/docker-ooni-probe)  
+- 3 [RIPE ATLAS Probes](https://atlas.ripe.net/): [CH1](https://atlas.ripe.net/probes/1003795/) [GR1](https://atlas.ripe.net/probes/12474/) - Contact us if you need credits for your project  
+- 10 [Globalping](https://github.com/jsdelivr/globalping) probes  
   
 To suggest a new service: [contact us](/{{ locale }}/contact/)  
