@@ -16,9 +16,8 @@ APE code: 5814Z
 
 ### Headquarters
 Altertek  
-A42  
-13, Avenue du Président Kennedy  
-59000 Lille  
+38 Bld Hippolyte Faure  
+51000 Châlons-en-Champagne  
 FRANCE  
 
 ### Publication management directors

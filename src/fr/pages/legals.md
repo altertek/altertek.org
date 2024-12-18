@@ -16,9 +16,8 @@ Code APE: 5814Z
 
 ### Siège social
 Altertek  
-A42  
-13, Avenue du Président Kennedy  
-59000 Lille  
+38 Bld Hippolyte Faure  
+51000 Châlons-en-Champagne  
 FRANCE  
 
 ### Directeurs de la publication
