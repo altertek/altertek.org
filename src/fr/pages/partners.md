@@ -14,6 +14,7 @@ Dans cette page, notre définition de "soutien" comprend toute aide financière,
 <hr/>
 
 ## Nous sommes membre de
+- [OpenStreetMap France](https://www.openstreetmap.fr)
 - [Le collectif CHATONS](https://www.chatons.org/)
 - [L'April](https://www.april.org/)
 

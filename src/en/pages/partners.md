@@ -14,7 +14,8 @@ On this page, our definition of "sponsorship" includes any material, financial, 
 <hr />
 
 ## We are member of
-- [the CHATONS collective](https://www.chatons.org/)
+- [OpenStreetMap France](https://www.openstreetmap.fr/)
+- [The CHATONS collective](https://www.chatons.org/)
 - [April](https://www.april.org/)
 
 ## We support

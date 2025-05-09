@@ -61,6 +61,11 @@ module.exports = {
       title: "We are member of",
       refs: [
         {
+          name: "OpenStreetMap France",
+          img: "../../assets/images/references/osm.webp",
+          link: "https://www.openstreetmap.fr"
+        },
+        {
           name: "CHATONS",
           img: "../../assets/images/references/chatons.svg",
           link: "https://www.chatons.org/en"
@@ -86,19 +91,9 @@ module.exports = {
           link: "https://www.worldcleanupday.fr"
         },
         {
-          name: "ANV COP21",
-          img: "../../assets/images/references/anv-cop21.webp",
-          link: "https://anv-cop21.org"
-        },
-        {
           name: "Alternatiba",
           img: "../../assets/images/references/alternatiba.webp",
           link: "https://alternatiba.eu"
-        },
-        {
-          name: "Digital Cleanup Day",
-          img: "../../assets/images/references/dcd.webp",
-          link: "https://digital-cleanup-day.fr/"
         }
       ]
     }
@@ -160,6 +155,11 @@ module.exports = {
       title: "Nous sommes membre de",
       refs: [
         {
+          name: "OpenStreetMap France",
+          img: "../../assets/images/references/osm.webp",
+          link: "https://www.openstreetmap.fr"
+        },
+        {
           name: "CHATONS",
           img: "../../assets/images/references/chatons.svg",
           link: "https://www.chatons.org/"
@@ -188,16 +188,6 @@ module.exports = {
           name: "Alternatiba",
           img: "../../assets/images/references/alternatiba.webp",
           link: "https://alternatiba.eu"
-        },
-        {
-          name: "ANV COP21",
-          img: "../../assets/images/references/anv-cop21.webp",
-          link: "https://anv-cop21.org"
-        },
-        {
-          name: "Cyber World CleanUp Day",
-          img: "../../assets/images/references/dcd.webp",
-          link: "https://cyberworldcleanupday.fr"
         }
       ]
     }
