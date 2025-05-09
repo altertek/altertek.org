@@ -1,0 +1,20 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "semiannually"
+    groups:
+       github-actions:
+          versioning-strategy: "increase"
+          patterns:
+            - "*"
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "semiannually"
+    groups:
+       npm:
+          versioning-strategy: "increase"
+          patterns:
+            - "*"
