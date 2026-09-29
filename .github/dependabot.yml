@@ -6,15 +6,15 @@ updates:
       interval: "semiannually"
     groups:
        github-actions:
-          versioning-strategy: "increase"
           patterns:
             - "*"
+
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "semiannually"
+    versioning-strategy: "increase"
     groups:
        npm:
-          versioning-strategy: "increase"
           patterns:
             - "*"
